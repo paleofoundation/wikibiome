@@ -74299,6 +74299,11 @@
           "heading": "See Also",
           "level": 2,
           "body": "- [[metallomics]] -- systems-level metal analysis\n- [[microbial-biomarkers]] -- microbiome-specific diagnostics\n- [[calprotectin]] -- fecal inflammation biomarker\n- [[hepcidin]] -- iron homeostasis biomarker"
+        },
+        {
+          "heading": "Reading the cited evidence",
+          "level": 2,
+          "body": "The metabolomics review by Akash and colleagues emphasizes that the specimen matters: blood, urine and other samples can contain different metabolite profiles. Collection, storage, extraction and analytical platform also affect the result. A biomarker description therefore needs to identify what was measured and how it was measured. (Source locator: PDF p2 Section 2; p3 workflow discussion). [[akash-2023-metabolomics-heavy-metal-toxicities]]\n\nThe authors call for reproducible workflows and further validation of putative metabolomic biomarkers in larger cohorts. They also note potential bias and variability from laboratory models and small cohorts. Discovery of a candidate signal is a separate step from establishing a reliable clinical test. (Source locator: PDF p3 workflow discussion). [[akash-2023-metabolomics-heavy-metal-toxicities]]"
         }
       ],
       "wikilinks": [
@@ -76442,6 +76447,11 @@
           "heading": "Key Sources",
           "level": 2,
           "body": "- [[luqman-2024-intestinal-microbiome-cvd-intervention]]\n- [[herrema-2020-microbiome-cardiovascular-disease-ascvd]]"
+        },
+        {
+          "heading": "Reading the cited evidence",
+          "level": 2,
+          "body": "Luqman and colleagues review links between the intestinal microbiome, microbial metabolites and cardiovascular risk factors, including inflammation and diabetes. This is a synthesis of existing literature, rather than a newly recruited cohort in which all of those conditions were measured together. (Source locator: PDF p1 Abstract; p2 Introduction). [[luqman-2024-intestinal-microbiome-cvd-intervention]]\n\nThe review discusses short-chain fatty acids, bile acids and trimethylamine-related metabolism as possible connections between intestinal and cardiovascular biology. A shared pathway can motivate investigation of comorbidity, but the review does not establish that every person with overlapping diagnoses has the same microbial cause. (Source locator: PDF p1 Abstract; p2 Introduction). [[luqman-2024-intestinal-microbiome-cvd-intervention]]"
         }
       ],
       "wikilinks": [
@@ -80623,6 +80633,11 @@
           "heading": "Cross-References",
           "level": 2,
           "body": "- [[lead]] — primary therapeutic target for CaNa2EDTA\n- [[cadmium]] — limited EDTA efficacy due to renal sequestration\n- [[chelation-therapy]] — broader clinical framework (Cureva)\n- [[intestinal-permeability|barrier-dysfunction]] — EDTA's calcium chelation increases permeability\n- [[n-acetyl-cysteine]] — complementary glutathione-based metal detoxification\n- [[metal-resistance-genes]] — organisms with efflux pumps may resist EDTA effects"
+        },
+        {
+          "heading": "Reading the cited evidence",
+          "level": 2,
+          "body": "The nickel-chelation study by Benoit and colleagues tested dimethylglyoxime, abbreviated DMG, rather than EDTA. Its introduction distinguishes this nickel-preferring compound from older chelators. Findings about a named chelator therefore need to remain attached to that compound rather than being treated as interchangeable evidence for EDTA. (Source locator: PDF p1 Abstract; p2 Introduction). [[benoit-2019-nickel-chelation-therapy-mdr-enteric-pathogens]]\n\nThe reported experiments include bacterial cultures, infected mice and wax-moth larvae. Enzyme activity, bacterial growth and animal infection outcomes are different endpoints. These experiments provide preclinical context for metal sequestration; they do not establish the safety or effectiveness of an EDTA treatment regimen in people. (Source locator: PDF p1 Abstract; p8 Galleria experiments). [[benoit-2019-nickel-chelation-therapy-mdr-enteric-pathogens]]"
         }
       ],
       "wikilinks": [
@@ -80631,7 +80646,8 @@
         "chelation-therapy",
         "intestinal-permeability",
         "n-acetyl-cysteine",
-        "metal-resistance-genes"
+        "metal-resistance-genes",
+        "benoit-2019-nickel-chelation-therapy-mdr-enteric-pathogens"
       ],
       "sourceDir": "concepts",
       "sourceCount": 8,
@@ -83194,6 +83210,11 @@
           "heading": "See Also",
           "level": 2,
           "body": "- [[environmental-metal-exposure]] -- the primary exposure routes\n- [[developmental-metal-vulnerability]] -- the critical windows\n- [[gut-metal-microbiome]] -- the microbiome as exposome filter\n- [[biomarkers]] -- measuring the exposome\n- [[metal-chelation-therapy]] -- intervening on the exposome"
+        },
+        {
+          "heading": "Reading the cited evidence",
+          "level": 2,
+          "body": "The environmental review by Briffa and colleagues separates human activities such as mining, industry and agriculture from natural processes such as weathering and volcanic activity. These are descriptions of potential exposure sources, rather than measurements of the exposure received by a particular person. (Source locator: PDF p2 Sections 2 and 3). [[briffa-2020-heavy-metal-pollution-environment-toxicology]]\n\nThe same review distinguishes ingestion, inhalation and skin contact as routes by which metals can enter the body. Keeping the route and chemical form visible helps distinguish environmental occurrence from internal exposure. A list of possible sources is not a reconstructed lifetime exposure history. (Source locator: PDF p2 Section 3). [[briffa-2020-heavy-metal-pollution-environment-toxicology]]"
         }
       ],
       "wikilinks": [
@@ -83206,7 +83227,8 @@
         "dna-damage",
         "mis-metallation",
         "metal-chelation-therapy",
-        "biomarkers"
+        "biomarkers",
+        "briffa-2020-heavy-metal-pollution-environment-toxicology"
       ],
       "sourceDir": "concepts",
       "sourceCount": 5,
@@ -83940,6 +83962,11 @@
           "heading": "Connections",
           "level": 2,
           "body": "- [[iron]] -- ferritin is the primary intracellular iron storage protein\n- [[hepcidin]] -- controls systemic iron flow; elevated hepcidin leads to ferritin accumulation\n- [[ferroportin]] -- when ferroportin is degraded, iron accumulates in ferritin\n- [[ferroptosis]] -- ferritin overflow releases labile iron that drives lipid peroxidation\n- [[fenton-chemistry]] -- ferritin prevents Fenton reactions by sequestering Fe2+/Fe3+\n- [[ceruloplasmin]] -- ferroxidase activity parallels ferritin H-chain function\n- [[nutritional-immunity]] -- ferritin is part of the host's iron sequestration defense\n- [[transferrin]] -- iron released from ferritin enters plasma via ferroportin and loads onto transferrin"
+        },
+        {
+          "heading": "Reading the cited evidence",
+          "level": 2,
+          "body": "Bao and colleagues distinguish storage of iron in intestinal-cell ferritin from export of iron into the circulation. Their review describes retention and eventual loss with cell shedding when cellular iron is high, and transport into the circulation when cellular iron is low. Storage and transport are separate parts of the same regulatory system. (Source locator: PDF p7 Section 6.1). [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]\n\nThe review places ferritin within a broader account of iron regulation involving hepcidin, iron transporters and inflammation. This mechanistic context does not turn a ferritin measurement alone into a complete explanation of iron distribution, inflammatory status or a microbiome change in an individual patient. (Source locator: PDF p5 Section 3.2; p7 opening paragraph). [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]"
         }
       ],
       "wikilinks": [
@@ -90211,6 +90238,11 @@
           "heading": "Cross-References",
           "level": 2,
           "body": "- [[rheumatoid-arthritis]] -- secondary hyperparathyroidism in RA (PTH 77 vs. 49 pg/ml)\n- [[chronic-kidney-disease]] -- CKD-MBD as primary cause of secondary hyperparathyroidism\n- [[calcium]] -- PTH's primary regulatory target\n- [[vitamin-d-supplementation]] -- intervention for PTH normalization\n- [[lead]] -- Pb-Ca mimicry; bone storage and mobilization\n- [[cadmium]] -- Cd interference with renal vitamin D activation\n- [[mis-metallation]] -- toxic metals entering through calcium channels\n- [[fibromyalgia]] -- shared metal-VitD-PTH disruption"
+        },
+        {
+          "heading": "Reading the cited evidence",
+          "level": 2,
+          "body": "The held Research Square preprint by Haddad and colleagues compares adults with rheumatoid arthritis, adults with fibromyalgia and healthy controls. It reports serum metal measurements alongside vitamin D and parathyroid hormone. This is a case-controlled comparison, rather than an experiment that assigns metal exposure or a treatment. (Source locator: PDF p1 preprint identity; p2 Abstract Methods). [[haddad-2024-heavy-metals-vitamin-d-pth-ra-fibromyalgia]]\n\nThe preprint reports correlations and proposes an explanation involving vitamin D and parathyroid hormone. Those observations do not by themselves establish the sequence of events or show that removing an exposure would correct the hormone disturbance. Its preprint status remains explicit; no peer-review approval is claimed here. (Source locator: PDF p1 preprint identity; p2 Abstract Results and Conclusion). [[haddad-2024-heavy-metals-vitamin-d-pth-ra-fibromyalgia]]"
         }
       ],
       "wikilinks": [
@@ -94080,7 +94112,7 @@
           4
         ]
       },
-      "overview": "A fundamental ordering of divalent transition metal ion binding affinities, established by Harry Irving and Robert Williams in 1953:\n\n> Mg2+ < Mn2+ < Fe2+ < Co2+ < Ni2+ < Cu2+ > Zn2+\n\nThis series holds for virtually all ligands and biological chelators. It means that copper binds more tightly than any other first-row transition metal to any given protein or small molecule, followed by zinc, then nickel, and so on. This thermodynamic reality is the reason life had to evolve elaborate metal homeostasis systems -- and why those systems are vulnerable to disruption.",
+      "overview": "A fundamental ordering of divalent transition metal ion binding affinities, established by Harry Irving and Robert Williams in 1953:\n\n> Mg2+ < Mn2+ < Fe2+ < Co2+ < Ni2+ < Cu2+ > Zn2+\n\nThe binding series is a useful starting point for understanding metal selection, but intracellular availability and the structure of a binding site also matter. Robinson and Glasfeld describe mechanisms that can produce departures from the series, rather than an exceptionless rule for every protein and ligand. (Source locator: PDF p1 opening discussion; p2 discussion following Figure 1). [[robinson-2020-metalation-natures-challenge]]",
       "sections": [
         {
           "heading": "Biological Implication",
@@ -94106,9 +94138,15 @@
           "heading": "Cross-References",
           "level": 2,
           "body": "- [[mis-metallation]] -- The pathological consequence of Irving-Williams competition\n- [[nutritional-immunity]] -- The host defense that exploits metal binding hierarchies\n- [[copper]] -- The thermodynamic king of the Irving-Williams series\n- [[zinc]], [[iron]], [[nickel]], [[cadmium]], [[lead]] -- Metals whose pathology is explained by their position in the series\n- [[cuproptosis]], [[ferroptosis]] -- Cell death from metal buffering failure\n- [[gallium]] -- Therapeutic exploitation of Fe3+ mimicry"
+        },
+        {
+          "heading": "Reading the cited evidence",
+          "level": 2,
+          "body": "Robinson and Glasfeld discuss the binding series in the setting of nascent protein sites with little steric selection. Their commentary explains that cells also control metal bioavailability, so the metal that binds most tightly in a simplified comparison need not be the metal delivered to a protein inside a cell. (Source locator: PDF p1 Abstract and opening discussion). [[robinson-2020-metalation-natures-challenge]]\n\nThe commentary describes how linked metal-binding sites, changes in coordination geometry and accessory processes can alter selectivity. It specifically allows binding preferences that depart from the simple series. This is why a general affinity ordering should not be treated as an exceptionless prediction for every protein or ligand. (Source locator: PDF p2 Discussion following Figure 1). [[robinson-2020-metalation-natures-challenge]]"
         }
       ],
       "wikilinks": [
+        "robinson-2020-metalation-natures-challenge",
         "mis-metallation",
         "cadmium",
         "lead",
@@ -98725,6 +98763,11 @@
           "heading": "Connections",
           "level": 2,
           "body": "- [[metalloestrogens]] -- detailed mechanistic page covering all known metalloestrogens\n- [[cadmium]] -- prototypical metalloestrogen with near-estradiol ERa affinity\n- [[nickel]] -- metalloestrogen activity in endometriosis context\n- [[copper]] -- pituitary estrogenic effects relevant to PCOS\n- [[estrobolome]] -- microbial estrogen metabolism amplifies metalloestrogen effects\n- [[estrogen-recirculation]] -- the microbial pathway that complements metalloestrogen receptor activation\n- [[mis-metallation]] -- metalloestrogen binding is a form of receptor mis-metallation\n- [[breast-cancer]] -- Cd metalloestrogen activity in mammary tissue\n- [[endometriosis]] -- Ni metalloestrogen activity and low-nickel diet response\n- [[pcos]] -- multi-metal metalloestrogen burden"
+        },
+        {
+          "heading": "Reading the cited evidence",
+          "level": 2,
+          "body": "Aquino and colleagues examine epidemiological, animal and cell studies when assessing the metalloestrogen hypothesis. Their review emphasizes that metal concentration and binding to proteins other than estrogen receptors complicate interpretation. A cellular estrogen-like response is therefore not interchangeable with evidence of cancer development in a population. (Source locator: PDF p1 Abstract). [[aquino-2012-cadmium-nickel-metalloestrogens]]\n\nThe authors explicitly describe uncertainty about whether chronic, low-level cadmium or nickel exposure directly causes cancer development and progression. The term metalloestrogen identifies a proposed mode of action under investigation; it does not remove the need to distinguish exposure, receptor signaling and clinical disease. (Source locator: PDF p1 Abstract; p2 Introduction). [[aquino-2012-cadmium-nickel-metalloestrogens]]"
         }
       ],
       "wikilinks": [
@@ -104949,6 +104992,11 @@
           "heading": "Cross-References",
           "level": 2,
           "body": "- [[oxalobacter]] -- the obligate oxalate-degrading specialist (detailed entity page)\n- [[calcium]] -- Ca-oxalate axis; kidney stone formation\n- [[chronic-kidney-disease]] -- oxalate accumulation in CKD\n- [[iron]] -- Fe-oxalate binding and iron bioavailability\n- [[zinc]] -- Zn-oxalate reducing zinc absorption\n- [[prebiotics]] -- fiber supporting Oxalobacter colonization\n- [[antimicrobial-resistance]] -- antibiotic collateral damage to specialist bacteria"
+        },
+        {
+          "heading": "Reading the cited evidence",
+          "level": 2,
+          "body": "Duan and colleagues discuss oxalate as a microbial energy substrate and as a molecule capable of forming an insoluble complex with lead. Their review presents this as a possible connection between microbial metabolism and metal absorption, rather than a clinical trial of an oxalate-based intervention. (Source locator: PDF p3 Section 2.1). [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]]\n\nThe review also separates microbial binding and transformation of metals from experiments using antibiotic-treated or germ-free animals. It notes that differences in microbiota between species matter for oral metal exposure. Those animal and chemical observations cannot simply be read as a demonstrated treatment effect in humans. (Source locator: PDF p3 Section 2.1). [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]]"
         }
       ],
       "wikilinks": [
@@ -104959,7 +105007,8 @@
         "magnesium",
         "chronic-kidney-disease",
         "prebiotics",
-        "antimicrobial-resistance"
+        "antimicrobial-resistance",
+        "duan-2020-gut-microbiota-heavy-metal-probiotic-strategy"
       ],
       "sourceDir": "concepts",
       "sourceCount": 6,
@@ -105626,6 +105675,11 @@
           "heading": "Cross-References",
           "level": 2,
           "body": "- [[proteobacteria]] — facultative aerobes that bloom when oxygen leaks into lumen\n- [[faecalibacterium-prausnitzii]] — obligate anaerobe whose butyrate maintains the gradient\n- [[roseburia]] — butyrate producer maintaining colonocyte oxygen consumption\n- [[butyrate]] — the metabolite that drives colonocyte O2 consumption\n- [[molybdenum]] — cofactor for nitrate reductase enabling Proteobacteria anaerobic respiration\n- [[firmicutes]] — phylum most affected by oxygen gradient collapse"
+        },
+        {
+          "heading": "Reading the cited evidence",
+          "level": 2,
+          "body": "The vaginal microbiome study by Yang and colleagues compares microbial composition and function in HPV16-positive and control samples using shotgun metagenomics, with selected markers assessed separately by quantitative PCR. These are measurements of community composition and gene markers, rather than a direct map of an intestinal oxygen gradient. (Source locator: PDF p1 Abstract; p2 Study Population and Sampling). [[yang-2020-vaginal-microbiome-hpv16-shotgun-metagenomics]]\n\nThe authors describe host characteristics, personal hygiene, sexual behavior and hormonal cycling as potential confounders. They also state that their cross-sectional study cannot determine which condition preceded the other. An association between infection and microbial composition therefore needs to remain distinct from an established oxygen-driven causal sequence. (Source locator: PDF p12 Discussion and limitations). [[yang-2020-vaginal-microbiome-hpv16-shotgun-metagenomics]]"
         }
       ],
       "wikilinks": [
@@ -105641,7 +105695,8 @@
         "colorectal-cancer",
         "necrotizing-enterocolitis",
         "butyrate",
-        "firmicutes"
+        "firmicutes",
+        "yang-2020-vaginal-microbiome-hpv16-shotgun-metagenomics"
       ],
       "sourceDir": "concepts",
       "sourceCount": 8,
@@ -415987,7 +416042,7 @@
       ],
       "year": 2024,
       "journal": "Research Square (Preprint)",
-      "doi": "not yet verified",
+      "doi": "10.21203/rs.3.rs-4596002/v1",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""

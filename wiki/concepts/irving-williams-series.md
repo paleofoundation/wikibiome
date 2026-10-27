@@ -27,7 +27,7 @@ A fundamental ordering of divalent transition metal ion binding affinities, esta
 
 > Mg2+ < Mn2+ < Fe2+ < Co2+ < Ni2+ < Cu2+ > Zn2+
 
-This series holds for virtually all ligands and biological chelators. It means that copper binds more tightly than any other first-row transition metal to any given protein or small molecule, followed by zinc, then nickel, and so on. This thermodynamic reality is the reason life had to evolve elaborate metal homeostasis systems -- and why those systems are vulnerable to disruption.
+The binding series is a useful starting point for understanding metal selection, but intracellular availability and the structure of a binding site also matter. Robinson and Glasfeld describe mechanisms that can produce departures from the series, rather than an exceptionless rule for every protein and ligand. (Source locator: PDF p1 opening discussion; p2 discussion following Figure 1). [[robinson-2020-metalation-natures-challenge]]
 
 ## Biological Implication
 
@@ -70,3 +70,9 @@ The [[nutritional-immunity]] strategy exploits the Irving-Williams series in rev
 - [[zinc]], [[iron]], [[nickel]], [[cadmium]], [[lead]] -- Metals whose pathology is explained by their position in the series
 - [[cuproptosis]], [[ferroptosis]] -- Cell death from metal buffering failure
 - [[gallium]] -- Therapeutic exploitation of Fe3+ mimicry
+
+## Reading the cited evidence
+
+Robinson and Glasfeld discuss the binding series in the setting of nascent protein sites with little steric selection. Their commentary explains that cells also control metal bioavailability, so the metal that binds most tightly in a simplified comparison need not be the metal delivered to a protein inside a cell. (Source locator: PDF p1 Abstract and opening discussion). [[robinson-2020-metalation-natures-challenge]]
+
+The commentary describes how linked metal-binding sites, changes in coordination geometry and accessory processes can alter selectivity. It specifically allows binding preferences that depart from the simple series. This is why a general affinity ordering should not be treated as an exceptionless prediction for every protein or ligand. (Source locator: PDF p2 Discussion following Figure 1). [[robinson-2020-metalation-natures-challenge]]

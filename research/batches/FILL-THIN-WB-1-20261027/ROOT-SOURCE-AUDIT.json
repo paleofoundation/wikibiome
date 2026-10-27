@@ -1,0 +1,339 @@
+{
+  "reviewer": "conductor-root",
+  "timestamp": "2026-10-27T16:41:02.601023+02:00",
+  "decision": "PASS bounded source fidelity for exact 20 additions and one narrowing only",
+  "base": "11f98e336f46648b5440f14816680c5deac1c82b",
+  "candidate": {
+    "path": "work/fill-thin-wb-1/checkout/research/batches/FILL-THIN-WB-1-20261027/ADDITIONS-v2-UNAPPLIED.json",
+    "sha256": "9a07b6f9fd3f1f84a5a4d2eba479b8cc58cf6e096ce01cde22eb907bf5d1a8fa"
+  },
+  "inputs": {
+    "path": "work/fill-thin-wb-1/checkout/research/batches/FILL-THIN-WB-1-20261027/SOURCE-INPUTS-v2.json",
+    "sha256": "57cec85603c04c5ba81c6bb09dce10872a572c3e54e6db3da584104bd74c52ab"
+  },
+  "rootBindings": {
+    "path": "work/conductor-source-review/wb1/bindings-v2.json",
+    "sha256": "c1944dd464922f0e3a98f9b7e939046d80a00e01610ec01bede7507913aa7ca3"
+  },
+  "sourceReviews": [
+    {
+      "sourceId": "benoit-2019-nickel-chelation-therapy-mdr-enteric-pathogens",
+      "originalPath": "/Users/kmfp/Documents/Claude/Raw.deprecated-2026-05-04/raw copy/nickel chelation therapy as an approach to combat multi-drug resistant enteric pathogens.pdf",
+      "originalSha256": "df930bb5dbb0330f418867e43df312eae483dabe674abcc23a83b3d76a329ac7",
+      "physicalPages": 10,
+      "freshTextPath": "work/conductor-source-review/wb1/benoit-2019-nickel-chelation-therapy-mdr-enteric-pathogens.txt",
+      "freshTextSha256": "9ca7fa9e82c08c18d39d96e084cb385cef4d0020e00fc8d308c607bdb843ae40",
+      "selectedScopeRead": "Physical PDF p1 Abstract, p2 Introduction, p8 Galleria experiments",
+      "finding": "DMG and EDTA kept distinct; bacterial and animal preclinical outcomes do not establish human EDTA regimen effectiveness or safety.",
+      "boundedFidelity": "PASS"
+    },
+    {
+      "sourceId": "briffa-2020-heavy-metal-pollution-environment-toxicology",
+      "originalPath": "/Users/kmfp/Documents/Claude/Raw.deprecated-2026-05-04/raw copy/Critical Papers/Heavy-metal-pollution-in-the-environment-and-their-toxicological-effects-on-humans.pdf",
+      "originalSha256": "12f98a8a1fc99d5926f1ff82759dec0410c5c559344e470652f8e2fe16a23ca8",
+      "physicalPages": 26,
+      "freshTextPath": "work/conductor-source-review/wb1/briffa-2020-heavy-metal-pollution-environment-toxicology.txt",
+      "freshTextSha256": "74f09ba0c8a1726fc43542f2bf33c80154fcfd24743b5b4c922988bc173a0a7e",
+      "selectedScopeRead": "Physical PDF p2 Sections 2 and 3",
+      "finding": "Environmental sources, routes and chemical form remain distinct from measured personal or lifetime exposure.",
+      "boundedFidelity": "PASS"
+    },
+    {
+      "sourceId": "luqman-2024-intestinal-microbiome-cvd-intervention",
+      "originalPath": "/Users/kmfp/Documents/Claude/Raw.deprecated-2026-05-04/raw copy/cardiovascular disease/Trace metals cardiovascular disease microbiome/Role of the intestinal microbiome and its therapeutic intervention in cardiovascular disorder.pdf",
+      "originalSha256": "231934199ac149761ec31afda1b2468b9acea32b21321b7e4db34f33bf5217fd",
+      "physicalPages": 24,
+      "freshTextPath": "work/conductor-source-review/wb1/luqman-2024-intestinal-microbiome-cvd-intervention.txt",
+      "freshTextSha256": "dcb637b087e2d14df77c11f6a67c56ad4b4ac31d868f29e79a2783f9576ebd59",
+      "selectedScopeRead": "Physical PDF p1 Abstract and p2 Introduction",
+      "finding": "Review synthesis and proposed microbial pathways, not a newly recruited all-condition cohort or universal cause.",
+      "boundedFidelity": "PASS"
+    },
+    {
+      "sourceId": "duan-2020-gut-microbiota-heavy-metal-probiotic-strategy",
+      "originalPath": "/Users/kmfp/Documents/Claude/Raw.deprecated-2026-05-04/raw copy/Gut microbiota- A target for heavy metal toxicity and a probiotic protective st.pdf",
+      "originalSha256": "fb0f4cc4f8a96893576aede74f781b210f0ae902eecfc0236b465f6db2ca12e4",
+      "physicalPages": 15,
+      "freshTextPath": "work/conductor-source-review/wb1/duan-2020-gut-microbiota-heavy-metal-probiotic-strategy.txt",
+      "freshTextSha256": "bf811ca3a60aa50365fa40802c17d0188e6b4ce936320bb3ece440673a368cc1",
+      "selectedScopeRead": "Physical PDF p3 Section 2.1",
+      "finding": "Review discussion of oxalate substrate, insoluble lead complexes and animal models; no demonstrated human treatment effect.",
+      "boundedFidelity": "PASS"
+    },
+    {
+      "sourceId": "aquino-2012-cadmium-nickel-metalloestrogens",
+      "originalPath": "/Users/kmfp/Documents/Claude/Raw.deprecated-2026-05-04/raw copy/Role of Cadmium and Nickel in Estrogen Receptor Signaling and Breast Cancer- Metalloestrogens or Not .pdf",
+      "originalSha256": "ae43a23fee4480a22f5c5795574d09f85a06000e94d3ff64666650b293f01032",
+      "physicalPages": 28,
+      "freshTextPath": "work/conductor-source-review/wb1/aquino-2012-cadmium-nickel-metalloestrogens.txt",
+      "freshTextSha256": "7b6a32c82984fabe20d118f83e7bc1e998c47953b356edf5d95bc5651ff7555a",
+      "selectedScopeRead": "Physical PDF p1 Abstract and p2 Introduction",
+      "finding": "Review distinguishes epidemiological, animal and cell evidence; chronic low-exposure cancer causation remains uncertain.",
+      "boundedFidelity": "PASS"
+    },
+    {
+      "sourceId": "robinson-2020-metalation-natures-challenge",
+      "originalPath": "/Users/kmfp/Documents/Claude/Raw.deprecated-2026-05-04/raw copy/mismetallation_pathogens_CLEAN/MM_7239837_Metalation_natures_challenge_in_bioinorganic_chemistry.pdf",
+      "originalSha256": "aa692f435294b5dd8b3b17ba01821e7f13eba01834636e60691fbaf43cf54c0f",
+      "physicalPages": 3,
+      "freshTextPath": "work/conductor-source-review/wb1/robinson-2020-metalation-natures-challenge.txt",
+      "freshTextSha256": "459194e763376e25ace19fe49855650cddd02f34520c3c944ac03367478970d8",
+      "selectedScopeRead": "Physical PDF p1 Abstract/opening and p2 discussion after Figure 1",
+      "finding": "Commentary permits departures from the simplified binding series; structure, metal availability and accessory processes bound the claim. Existing universal-ligand sentence is narrowed.",
+      "boundedFidelity": "PASS"
+    },
+    {
+      "sourceId": "akash-2023-metabolomics-heavy-metal-toxicities",
+      "originalPath": "/Users/kmfp/Documents/Claude/Raw.deprecated-2026-05-04/raw copy/Heavy Metals/Metabolomics Heavy Metals/Metabolomics- a promising tool for deciphering metabolic impairment in heavy metal toxicities.pdf",
+      "originalSha256": "a5470153f42b979c329d511d01dcb882e4abc5db54a505d46ddff57acf4ffac2",
+      "physicalPages": 10,
+      "freshTextPath": "work/conductor-source-review/wb1/akash-2023-metabolomics-heavy-metal-toxicities.txt",
+      "freshTextSha256": "cd30a0df818d13e4769a71cccb2c11a0db5ba42f62b537ee878f95d17a9d5446",
+      "selectedScopeRead": "Physical PDF p2 Section 2 and p3 workflow discussion",
+      "finding": "Specimen and handling/platform distinctions and validation limits retained; candidate biomarker is not a validated clinical test.",
+      "boundedFidelity": "PASS"
+    },
+    {
+      "sourceId": "haddad-2024-heavy-metals-vitamin-d-pth-ra-fibromyalgia",
+      "originalPath": "/Users/kmfp/Documents/Claude/Raw.deprecated-2026-05-04/raw copy/6. Impact of heavy metals on serum vitamin D3 and PTH in bromyalgia and rheumat.pdf",
+      "originalSha256": "08e552024a4f71f704019b7b1e29ea39e01beb09714557eb270916e85bf4d59d",
+      "physicalPages": 11,
+      "freshTextPath": "work/conductor-source-review/wb1/haddad-2024-heavy-metals-vitamin-d-pth-ra-fibromyalgia.txt",
+      "freshTextSha256": "618e05d8c6df031f6e6890dd8a5e99264b4853b3031b2b15bd337e4d87975488",
+      "selectedScopeRead": "Physical PDF p1 identity/preprint warning and p2 Abstract Methods, Results and Conclusion",
+      "finding": "Explicit Research Square preprint; case-controlled serum observations/correlations, no assigned exposure, temporal causality or intervention benefit.",
+      "boundedFidelity": "PASS"
+    },
+    {
+      "sourceId": "bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota",
+      "originalPath": "/Users/kmfp/Documents/Claude/Raw.deprecated-2026-05-04/raw copy/Mechanism of Iron Ion Homeostasis in Intestinal Immunity and Gut Microbiota Rem.pdf",
+      "originalSha256": "949b075c8ba196cf44c2721c333e9590e3ecb764e11513fd63fc333b90d95565",
+      "physicalPages": 21,
+      "freshTextPath": "work/conductor-source-review/wb1/bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota.txt",
+      "freshTextSha256": "8bdf42fd2823919e0776b6e0633069ffe43828cba213b4113886911be17c2bd5",
+      "selectedScopeRead": "Physical PDF p5 Section 3.2 and p7 opening/Section 6.1",
+      "finding": "Review-attributed intestinal-cell storage/transport and hepcidin context; no clinical ferritin threshold or diagnostic inference.",
+      "boundedFidelity": "PASS"
+    },
+    {
+      "sourceId": "yang-2020-vaginal-microbiome-hpv16-shotgun-metagenomics",
+      "originalPath": "/Users/kmfp/Documents/Claude/Raw.deprecated-2026-05-04/raw copy/erectile dysfunction/The alterations of vaginal microbiome in HPV16 infection as identified by shotgun metagenomic sequencing.pdf",
+      "originalSha256": "327869706cb9942643843769f47ce958ffa8e780903de9f162b51ddb1f2e1607",
+      "physicalPages": 14,
+      "freshTextPath": "work/conductor-source-review/wb1/yang-2020-vaginal-microbiome-hpv16-shotgun-metagenomics.txt",
+      "freshTextSha256": "1c7a158f335dd3688259daa6ce246e59bcecfab912b0e9bfc90fe7b014cbe6ee",
+      "selectedScopeRead": "Physical PDF p1 Abstract, p2 Study Population and Sampling, p12 Discussion and limitations",
+      "finding": "Vaginal HPV16/control metagenomic groups and qPCR markers, not intestinal oxygen measurement; cross-sectional chronology and confounding limits retained.",
+      "boundedFidelity": "PASS"
+    }
+  ],
+  "exactRecords": [
+    {
+      "id": "WB1-edta-1",
+      "pageId": "edta",
+      "sourceId": "benoit-2019-nickel-chelation-therapy-mdr-enteric-pathogens",
+      "sourceUrl": "https://doi.org/10.1038/s41598-019-50027-0",
+      "locator": "PDF p1 Abstract; p2 Introduction",
+      "exactProse": "The nickel-chelation study by Benoit and colleagues tested dimethylglyoxime, abbreviated DMG, rather than EDTA. Its introduction distinguishes this nickel-preferring compound from older chelators. Findings about a named chelator therefore need to remain attached to that compound rather than being treated as interchangeable evidence for EDTA.",
+      "boundedFidelity": "PASS"
+    },
+    {
+      "id": "WB1-edta-2",
+      "pageId": "edta",
+      "sourceId": "benoit-2019-nickel-chelation-therapy-mdr-enteric-pathogens",
+      "sourceUrl": "https://doi.org/10.1038/s41598-019-50027-0",
+      "locator": "PDF p1 Abstract; p8 Galleria experiments",
+      "exactProse": "The reported experiments include bacterial cultures, infected mice and wax-moth larvae. Enzyme activity, bacterial growth and animal infection outcomes are different endpoints. These experiments provide preclinical context for metal sequestration; they do not establish the safety or effectiveness of an EDTA treatment regimen in people.",
+      "boundedFidelity": "PASS"
+    },
+    {
+      "id": "WB1-exposome-1",
+      "pageId": "exposome",
+      "sourceId": "briffa-2020-heavy-metal-pollution-environment-toxicology",
+      "sourceUrl": "https://doi.org/10.1016/j.heliyon.2020.e04691",
+      "locator": "PDF p2 Sections 2 and 3",
+      "exactProse": "The environmental review by Briffa and colleagues separates human activities such as mining, industry and agriculture from natural processes such as weathering and volcanic activity. These are descriptions of potential exposure sources, rather than measurements of the exposure received by a particular person.",
+      "boundedFidelity": "PASS"
+    },
+    {
+      "id": "WB1-exposome-2",
+      "pageId": "exposome",
+      "sourceId": "briffa-2020-heavy-metal-pollution-environment-toxicology",
+      "sourceUrl": "https://doi.org/10.1016/j.heliyon.2020.e04691",
+      "locator": "PDF p2 Section 3",
+      "exactProse": "The same review distinguishes ingestion, inhalation and skin contact as routes by which metals can enter the body. Keeping the route and chemical form visible helps distinguish environmental occurrence from internal exposure. A list of possible sources is not a reconstructed lifetime exposure history.",
+      "boundedFidelity": "PASS"
+    },
+    {
+      "id": "WB1-comorbidities-1",
+      "pageId": "comorbidities",
+      "sourceId": "luqman-2024-intestinal-microbiome-cvd-intervention",
+      "sourceUrl": "https://doi.org/10.3389/fimmu.2024.1321395",
+      "locator": "PDF p1 Abstract; p2 Introduction",
+      "exactProse": "Luqman and colleagues review links between the intestinal microbiome, microbial metabolites and cardiovascular risk factors, including inflammation and diabetes. This is a synthesis of existing literature, rather than a newly recruited cohort in which all of those conditions were measured together.",
+      "boundedFidelity": "PASS"
+    },
+    {
+      "id": "WB1-comorbidities-2",
+      "pageId": "comorbidities",
+      "sourceId": "luqman-2024-intestinal-microbiome-cvd-intervention",
+      "sourceUrl": "https://doi.org/10.3389/fimmu.2024.1321395",
+      "locator": "PDF p1 Abstract; p2 Introduction",
+      "exactProse": "The review discusses short-chain fatty acids, bile acids and trimethylamine-related metabolism as possible connections between intestinal and cardiovascular biology. A shared pathway can motivate investigation of comorbidity, but the review does not establish that every person with overlapping diagnoses has the same microbial cause.",
+      "boundedFidelity": "PASS"
+    },
+    {
+      "id": "WB1-oxygen-state-1",
+      "pageId": "oxygen-state",
+      "sourceId": "yang-2020-vaginal-microbiome-hpv16-shotgun-metagenomics",
+      "sourceUrl": "https://doi.org/10.3389/fcimb.2020.00286",
+      "locator": "PDF p1 Abstract; p2 Study Population and Sampling",
+      "exactProse": "The vaginal microbiome study by Yang and colleagues compares microbial composition and function in HPV16-positive and control samples using shotgun metagenomics, with selected markers assessed separately by quantitative PCR. These are measurements of community composition and gene markers, rather than a direct map of an intestinal oxygen gradient.",
+      "boundedFidelity": "PASS"
+    },
+    {
+      "id": "WB1-oxygen-state-2",
+      "pageId": "oxygen-state",
+      "sourceId": "yang-2020-vaginal-microbiome-hpv16-shotgun-metagenomics",
+      "sourceUrl": "https://doi.org/10.3389/fcimb.2020.00286",
+      "locator": "PDF p12 Discussion and limitations",
+      "exactProse": "The authors describe host characteristics, personal hygiene, sexual behavior and hormonal cycling as potential confounders. They also state that their cross-sectional study cannot determine which condition preceded the other. An association between infection and microbial composition therefore needs to remain distinct from an established oxygen-driven causal sequence.",
+      "boundedFidelity": "PASS"
+    },
+    {
+      "id": "WB1-oxalates-1",
+      "pageId": "oxalates",
+      "sourceId": "duan-2020-gut-microbiota-heavy-metal-probiotic-strategy",
+      "sourceUrl": "https://doi.org/10.1016/j.scitotenv.2020.140429",
+      "locator": "PDF p3 Section 2.1",
+      "exactProse": "Duan and colleagues discuss oxalate as a microbial energy substrate and as a molecule capable of forming an insoluble complex with lead. Their review presents this as a possible connection between microbial metabolism and metal absorption, rather than a clinical trial of an oxalate-based intervention.",
+      "boundedFidelity": "PASS"
+    },
+    {
+      "id": "WB1-oxalates-2",
+      "pageId": "oxalates",
+      "sourceId": "duan-2020-gut-microbiota-heavy-metal-probiotic-strategy",
+      "sourceUrl": "https://doi.org/10.1016/j.scitotenv.2020.140429",
+      "locator": "PDF p3 Section 2.1",
+      "exactProse": "The review also separates microbial binding and transformation of metals from experiments using antibiotic-treated or germ-free animals. It notes that differences in microbiota between species matter for oral metal exposure. Those animal and chemical observations cannot simply be read as a demonstrated treatment effect in humans.",
+      "boundedFidelity": "PASS"
+    },
+    {
+      "id": "WB1-metalloestrogen-1",
+      "pageId": "metalloestrogen",
+      "sourceId": "aquino-2012-cadmium-nickel-metalloestrogens",
+      "sourceUrl": "https://doi.org/10.1080/10590501.2012.705159",
+      "locator": "PDF p1 Abstract",
+      "exactProse": "Aquino and colleagues examine epidemiological, animal and cell studies when assessing the metalloestrogen hypothesis. Their review emphasizes that metal concentration and binding to proteins other than estrogen receptors complicate interpretation. A cellular estrogen-like response is therefore not interchangeable with evidence of cancer development in a population.",
+      "boundedFidelity": "PASS"
+    },
+    {
+      "id": "WB1-metalloestrogen-2",
+      "pageId": "metalloestrogen",
+      "sourceId": "aquino-2012-cadmium-nickel-metalloestrogens",
+      "sourceUrl": "https://doi.org/10.1080/10590501.2012.705159",
+      "locator": "PDF p1 Abstract; p2 Introduction",
+      "exactProse": "The authors explicitly describe uncertainty about whether chronic, low-level cadmium or nickel exposure directly causes cancer development and progression. The term metalloestrogen identifies a proposed mode of action under investigation; it does not remove the need to distinguish exposure, receptor signaling and clinical disease.",
+      "boundedFidelity": "PASS"
+    },
+    {
+      "id": "WB1-irving-williams-series-1",
+      "pageId": "irving-williams-series",
+      "sourceId": "robinson-2020-metalation-natures-challenge",
+      "sourceUrl": "https://doi.org/10.1007/s00775-020-01790-3",
+      "locator": "PDF p1 Abstract and opening discussion",
+      "exactProse": "Robinson and Glasfeld discuss the binding series in the setting of nascent protein sites with little steric selection. Their commentary explains that cells also control metal bioavailability, so the metal that binds most tightly in a simplified comparison need not be the metal delivered to a protein inside a cell.",
+      "boundedFidelity": "PASS"
+    },
+    {
+      "id": "WB1-irving-williams-series-2",
+      "pageId": "irving-williams-series",
+      "sourceId": "robinson-2020-metalation-natures-challenge",
+      "sourceUrl": "https://doi.org/10.1007/s00775-020-01790-3",
+      "locator": "PDF p2 Discussion following Figure 1",
+      "exactProse": "The commentary describes how linked metal-binding sites, changes in coordination geometry and accessory processes can alter selectivity. It specifically allows binding preferences that depart from the simple series. This is why a general affinity ordering should not be treated as an exceptionless prediction for every protein or ligand.",
+      "boundedFidelity": "PASS"
+    },
+    {
+      "id": "WB1-biomarkers-1",
+      "pageId": "biomarkers",
+      "sourceId": "akash-2023-metabolomics-heavy-metal-toxicities",
+      "sourceUrl": "https://doi.org/10.3389/fmolb.2023.1218497",
+      "locator": "PDF p2 Section 2; p3 workflow discussion",
+      "exactProse": "The metabolomics review by Akash and colleagues emphasizes that the specimen matters: blood, urine and other samples can contain different metabolite profiles. Collection, storage, extraction and analytical platform also affect the result. A biomarker description therefore needs to identify what was measured and how it was measured.",
+      "boundedFidelity": "PASS"
+    },
+    {
+      "id": "WB1-biomarkers-2",
+      "pageId": "biomarkers",
+      "sourceId": "akash-2023-metabolomics-heavy-metal-toxicities",
+      "sourceUrl": "https://doi.org/10.3389/fmolb.2023.1218497",
+      "locator": "PDF p3 workflow discussion",
+      "exactProse": "The authors call for reproducible workflows and further validation of putative metabolomic biomarkers in larger cohorts. They also note potential bias and variability from laboratory models and small cohorts. Discovery of a candidate signal is a separate step from establishing a reliable clinical test.",
+      "boundedFidelity": "PASS"
+    },
+    {
+      "id": "WB1-hyperparathyroidism-1",
+      "pageId": "hyperparathyroidism",
+      "sourceId": "haddad-2024-heavy-metals-vitamin-d-pth-ra-fibromyalgia",
+      "sourceUrl": "https://doi.org/10.21203/rs.3.rs-4596002/v1",
+      "locator": "PDF p1 preprint identity; p2 Abstract Methods",
+      "exactProse": "The held Research Square preprint by Haddad and colleagues compares adults with rheumatoid arthritis, adults with fibromyalgia and healthy controls. It reports serum metal measurements alongside vitamin D and parathyroid hormone. This is a case-controlled comparison, rather than an experiment that assigns metal exposure or a treatment.",
+      "boundedFidelity": "PASS"
+    },
+    {
+      "id": "WB1-hyperparathyroidism-2",
+      "pageId": "hyperparathyroidism",
+      "sourceId": "haddad-2024-heavy-metals-vitamin-d-pth-ra-fibromyalgia",
+      "sourceUrl": "https://doi.org/10.21203/rs.3.rs-4596002/v1",
+      "locator": "PDF p1 preprint identity; p2 Abstract Results and Conclusion",
+      "exactProse": "The preprint reports correlations and proposes an explanation involving vitamin D and parathyroid hormone. Those observations do not by themselves establish the sequence of events or show that removing an exposure would correct the hormone disturbance. Its preprint status remains explicit; no peer-review approval is claimed here.",
+      "boundedFidelity": "PASS"
+    },
+    {
+      "id": "WB1-ferritin-1",
+      "pageId": "ferritin",
+      "sourceId": "bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota",
+      "sourceUrl": "https://doi.org/10.3390/ijms25020727",
+      "locator": "PDF p7 Section 6.1",
+      "exactProse": "Bao and colleagues distinguish storage of iron in intestinal-cell ferritin from export of iron into the circulation. Their review describes retention and eventual loss with cell shedding when cellular iron is high, and transport into the circulation when cellular iron is low. Storage and transport are separate parts of the same regulatory system.",
+      "boundedFidelity": "PASS"
+    },
+    {
+      "id": "WB1-ferritin-2",
+      "pageId": "ferritin",
+      "sourceId": "bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota",
+      "sourceUrl": "https://doi.org/10.3390/ijms25020727",
+      "locator": "PDF p5 Section 3.2; p7 opening paragraph",
+      "exactProse": "The review places ferritin within a broader account of iron regulation involving hepcidin, iron transporters and inflammation. This mechanistic context does not turn a ferritin measurement alone into a complete explanation of iron distribution, inflammatory status or a microbiome change in an individual patient.",
+      "boundedFidelity": "PASS"
+    },
+    {
+      "id": "WB1-irving-existing-narrowing",
+      "pageId": "irving-williams-series",
+      "sourceId": "robinson-2020-metalation-natures-challenge",
+      "sourceUrl": "https://doi.org/10.1007/s00775-020-01790-3",
+      "locator": "PDF p1 opening discussion; p2 discussion following Figure 1",
+      "exactProse": "The binding series is a useful starting point for understanding metal selection, but intracellular availability and the structure of a binding site also matter. Robinson and Glasfeld describe mechanisms that can produce departures from the series, rather than an exceptionless rule for every protein and ligand. (Source locator: PDF p1 opening discussion; p2 discussion following Figure 1). [[robinson-2020-metalation-natures-challenge]]",
+      "boundedFidelity": "PASS"
+    }
+  ],
+  "newNumericalQuantities": 0,
+  "HPV16": "Existing source group identifier, not a new quantitative effect or count",
+  "doiGate": {
+    "proposalSha256": "430513a1a627a0cdb269d0978ba8b51c378fedae4e814d890cfb3669a367ec53",
+    "grantedBy": "ELON16:33",
+    "scope": "Existing Haddad MD doi and same existing sourceLookup projection only, 10.21203/rs.3.rs-4596002/v1; preprint label retained. Seven outside selected reference-link effects require exact bounded comparison."
+  },
+  "limitations": [
+    "Selected passages read, not every page of ten originals. Four selected original page renders also visually inspected.",
+    "Benoit first page carries an Author Correction banner; correction itself not independently read. No acquisition.",
+    "Inherited Robinson metadata names Andrea Glasfeld; original names Arthur Glasfeld. Candidate uses surnames only. Metadata unchanged because no wider gate; no metadata approval inferred.",
+    "Inherited keystone flags and why_keystone narratives not approved by this review.",
+    "Bao physiology remains explicitly review-attributed, not independent clinical or scientific validation.",
+    "Historical Sites ranking and current local legacy baseline differ; all ten already clear local analyzer. No measured flag improvement or live-drift claim.",
+    "No full scientific appraisal, integrity adjudication, clinical recommendation, grade, human sign-off, release or publishing authorization."
+  ],
+  "scientificApproval": false,
+  "releaseAuthorization": false
+}

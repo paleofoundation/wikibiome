@@ -1,0 +1,19 @@
+Building WikiBiome content (platform: all)...
+Reading vault from: /Users/kmfp/Documents/Codex/2026-10-25/you-are-conductor-the-single-codex/work/fill-thin-wb-1/checkout/wiki
+  Root pages: 5
+  Source metadata: 1939 entries
+  Entities: 333
+  Concepts: 264
+  Signatures: 70
+  Interventions: 72
+  STOPs: 72
+  Analyses: 47
+  Sources: 1939
+  Total: 863 content pages
+  Visible on all: 863
+  Associated conditions: 2400 pairs, 11 clusters
+  Graph: 863 nodes, 7960 links
+  Backlinks: 9825 total
+
+Output written to: /Users/kmfp/Documents/Codex/2026-10-25/you-are-conductor-the-single-codex/work/generator-baseline.json
+File size: 17197.1 KB

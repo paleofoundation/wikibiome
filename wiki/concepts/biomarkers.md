@@ -73,3 +73,9 @@ The [[metallomics]] approach measures the complete metal profile (ionome) rather
 - [[microbial-biomarkers]] -- microbiome-specific diagnostics
 - [[calprotectin]] -- fecal inflammation biomarker
 - [[hepcidin]] -- iron homeostasis biomarker
+
+## Reading the cited evidence
+
+The metabolomics review by Akash and colleagues emphasizes that the specimen matters: blood, urine and other samples can contain different metabolite profiles. Collection, storage, extraction and analytical platform also affect the result. A biomarker description therefore needs to identify what was measured and how it was measured. (Source locator: PDF p2 Section 2; p3 workflow discussion). [[akash-2023-metabolomics-heavy-metal-toxicities]]
+
+The authors call for reproducible workflows and further validation of putative metabolomic biomarkers in larger cohorts. They also note potential bias and variability from laboratory models and small cohorts. Discovery of a candidate signal is a separate step from establishing a reliable clinical test. (Source locator: PDF p3 workflow discussion). [[akash-2023-metabolomics-heavy-metal-toxicities]]

@@ -90,3 +90,9 @@ Restoring the oxygen gradient is a two-sided ecological engineering challenge (P
 - [[butyrate]] — the metabolite that drives colonocyte O2 consumption
 - [[molybdenum]] — cofactor for nitrate reductase enabling Proteobacteria anaerobic respiration
 - [[firmicutes]] — phylum most affected by oxygen gradient collapse
+
+## Reading the cited evidence
+
+The vaginal microbiome study by Yang and colleagues compares microbial composition and function in HPV16-positive and control samples using shotgun metagenomics, with selected markers assessed separately by quantitative PCR. These are measurements of community composition and gene markers, rather than a direct map of an intestinal oxygen gradient. (Source locator: PDF p1 Abstract; p2 Study Population and Sampling). [[yang-2020-vaginal-microbiome-hpv16-shotgun-metagenomics]]
+
+The authors describe host characteristics, personal hygiene, sexual behavior and hormonal cycling as potential confounders. They also state that their cross-sectional study cannot determine which condition preceded the other. An association between infection and microbial composition therefore needs to remain distinct from an established oxygen-driven causal sequence. (Source locator: PDF p12 Discussion and limitations). [[yang-2020-vaginal-microbiome-hpv16-shotgun-metagenomics]]

@@ -1,0 +1,110 @@
+[
+  {
+    "rank": "5",
+    "url": "https://www.wikibiome.com/category/reference",
+    "classification": "HELD-INDEX-COMPONENT-SCOPE",
+    "localBaseStatus": 404,
+    "localBaseWords": "",
+    "htmlSHA256": "b47a55e09e9d3af62b1d6a73975ca7f455b4a76cf3d39e552fef398a7bdba7a9",
+    "policy": "No restoration, component, index or renderer exception assumed"
+  },
+  {
+    "rank": "11",
+    "url": "https://www.wikibiome.com/explore",
+    "classification": "HELD-INDEX-COMPONENT-SCOPE",
+    "localBaseStatus": 200,
+    "localBaseWords": 24,
+    "htmlSHA256": "be3aaf73e0a26628433aed9d435c04a96ec1b22a09e1b6505920d7140086e676",
+    "policy": "No restoration, component, index or renderer exception assumed"
+  },
+  {
+    "rank": "57",
+    "url": "https://www.wikibiome.com/organizations/tecrid",
+    "classification": "HELD-MISSING-BASE",
+    "localBaseStatus": 404,
+    "localBaseWords": "",
+    "htmlSHA256": "b47a55e09e9d3af62b1d6a73975ca7f455b4a76cf3d39e552fef398a7bdba7a9",
+    "policy": "No restoration, component, index or renderer exception assumed"
+  },
+  {
+    "rank": "64",
+    "url": "https://www.wikibiome.com/category/other",
+    "classification": "HELD-INDEX-COMPONENT-SCOPE",
+    "localBaseStatus": 404,
+    "localBaseWords": "",
+    "htmlSHA256": "b47a55e09e9d3af62b1d6a73975ca7f455b4a76cf3d39e552fef398a7bdba7a9",
+    "policy": "No restoration, component, index or renderer exception assumed"
+  },
+  {
+    "rank": "65",
+    "url": "https://www.wikibiome.com/organizations/heavy-metal-index",
+    "classification": "HELD-MISSING-BASE",
+    "localBaseStatus": 404,
+    "localBaseWords": "",
+    "htmlSHA256": "b47a55e09e9d3af62b1d6a73975ca7f455b4a76cf3d39e552fef398a7bdba7a9",
+    "policy": "No restoration, component, index or renderer exception assumed"
+  },
+  {
+    "rank": "68",
+    "url": "https://www.wikibiome.com/category/entity",
+    "classification": "HELD-INDEX-COMPONENT-SCOPE",
+    "localBaseStatus": 200,
+    "localBaseWords": 125,
+    "htmlSHA256": "f825f3977d0e6dbe1a995bbcccd63557922cc424fc9bf191cd96561f408f398d",
+    "policy": "No restoration, component, index or renderer exception assumed"
+  },
+  {
+    "rank": "69",
+    "url": "https://www.wikibiome.com/organizations/microbiome-medicine",
+    "classification": "HELD-MISSING-BASE",
+    "localBaseStatus": 404,
+    "localBaseWords": "",
+    "htmlSHA256": "b47a55e09e9d3af62b1d6a73975ca7f455b4a76cf3d39e552fef398a7bdba7a9",
+    "policy": "No restoration, component, index or renderer exception assumed"
+  },
+  {
+    "rank": "71",
+    "url": "https://www.wikibiome.com/organizations/contaminant-standards",
+    "classification": "HELD-MISSING-BASE",
+    "localBaseStatus": 404,
+    "localBaseWords": "",
+    "htmlSHA256": "b47a55e09e9d3af62b1d6a73975ca7f455b4a76cf3d39e552fef398a7bdba7a9",
+    "policy": "No restoration, component, index or renderer exception assumed"
+  },
+  {
+    "rank": "195",
+    "url": "https://www.wikibiome.com/category/analysis",
+    "classification": "HELD-INDEX-COMPONENT-SCOPE",
+    "localBaseStatus": 200,
+    "localBaseWords": 140,
+    "htmlSHA256": "a07fb4303c2af7a6d5167aa6a83b89b0aa43d140d25a96cb412951708cbc9870",
+    "policy": "No restoration, component, index or renderer exception assumed"
+  },
+  {
+    "rank": "203",
+    "url": "https://www.wikibiome.com/category/metal",
+    "classification": "HELD-INDEX-COMPONENT-SCOPE",
+    "localBaseStatus": 200,
+    "localBaseWords": 735,
+    "htmlSHA256": "fa6612102dd915e7350c379ec8e6eb73bfc83c637d77eaeda185d4e29b3bf4e9",
+    "policy": "No restoration, component, index or renderer exception assumed"
+  },
+  {
+    "rank": "210",
+    "url": "https://www.wikibiome.com/category/defense",
+    "classification": "HELD-INDEX-COMPONENT-SCOPE",
+    "localBaseStatus": 200,
+    "localBaseWords": 750,
+    "htmlSHA256": "5723e2b6854191a64d85432ba1e9cb9452d364dd5717eaba9dbc72d7c395f848",
+    "policy": "No restoration, component, index or renderer exception assumed"
+  },
+  {
+    "rank": "218",
+    "url": "https://www.wikibiome.com/article/paradox-plant-based-diet-nickel-trap",
+    "classification": "HELD-MISSING-BASE",
+    "localBaseStatus": 404,
+    "localBaseWords": "",
+    "htmlSHA256": "b47a55e09e9d3af62b1d6a73975ca7f455b4a76cf3d39e552fef398a7bdba7a9",
+    "policy": "No restoration, component, index or renderer exception assumed"
+  }
+]

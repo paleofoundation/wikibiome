@@ -1,0 +1,277 @@
+[
+  {
+    "id": "benoit-2019-nickel-chelation-therapy-mdr-enteric-pathogens",
+    "originalPath": "/Users/kmfp/Documents/Claude/Raw.deprecated-2026-05-04/raw copy/nickel chelation therapy as an approach to combat multi-drug resistant enteric pathogens.pdf",
+    "originalSha256": "df930bb5dbb0330f418867e43df312eae483dabe674abcc23a83b3d76a329ac7",
+    "textSha256": "9ca7fa9e82c08c18d39d96e084cb385cef4d0020e00fc8d308c607bdb843ae40",
+    "pdfPhysicalPages": 10,
+    "canonicalMetadata": {
+      "title": "Benoit et al. 2019 \u2014 Nickel Chelation Therapy as an Approach to Combat Multi-Drug Resistant Enteric Pathogens",
+      "authors": [
+        "St\u00e9phane L. Benoit",
+        "Alan A. Schmalstig",
+        "John Glushka",
+        "Susan E. Maier",
+        "Arthur S. Edison",
+        "Robert J. Maier"
+      ],
+      "year": 2019,
+      "journal": "Scientific Reports",
+      "doi": "10.1038/s41598-019-50027-0",
+      "keystone": true,
+      "keystone_criteria_met": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "why_keystone": ""
+    },
+    "expectedDOIObserved": true,
+    "pdftotextWarnings": ""
+  },
+  {
+    "id": "briffa-2020-heavy-metal-pollution-environment-toxicology",
+    "originalPath": "/Users/kmfp/Documents/Claude/Raw.deprecated-2026-05-04/raw copy/Critical Papers/Heavy-metal-pollution-in-the-environment-and-their-toxicological-effects-on-humans.pdf",
+    "originalSha256": "12f98a8a1fc99d5926f1ff82759dec0410c5c559344e470652f8e2fe16a23ca8",
+    "textSha256": "74f09ba0c8a1726fc43542f2bf33c80154fcfd24743b5b4c922988bc173a0a7e",
+    "pdfPhysicalPages": 26,
+    "canonicalMetadata": {
+      "title": "Heavy Metal Pollution in the Environment and Their Toxicological Effects on Humans",
+      "authors": [
+        "Jessica Briffa",
+        "Emmanuel Sinagra",
+        "Renald Blundell"
+      ],
+      "year": 2020,
+      "journal": "Heliyon",
+      "doi": "10.1016/j.heliyon.2020.e04691",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "expectedDOIObserved": true,
+    "pdftotextWarnings": ""
+  },
+  {
+    "id": "luqman-2024-intestinal-microbiome-cvd-intervention",
+    "originalPath": "/Users/kmfp/Documents/Claude/Raw.deprecated-2026-05-04/raw copy/cardiovascular disease/Trace metals cardiovascular disease microbiome/Role of the intestinal microbiome and its therapeutic intervention in cardiovascular disorder.pdf",
+    "originalSha256": "231934199ac149761ec31afda1b2468b9acea32b21321b7e4db34f33bf5217fd",
+    "textSha256": "dcb637b087e2d14df77c11f6a67c56ad4b4ac31d868f29e79a2783f9576ebd59",
+    "pdfPhysicalPages": 24,
+    "canonicalMetadata": {
+      "title": "Role of the intestinal microbiome and its therapeutic intervention in cardiovascular disorder",
+      "authors": [
+        "Ameer Luqman",
+        "Adil Hassan",
+        "Mehtab Ullah",
+        "Sahar Naseem",
+        "Mehraj Ullah",
+        "Liyuan Zhang",
+        "Ahmad Ud Din",
+        "Kamran Ullah",
+        "Waqar Ahmad",
+        "Guixue Wang"
+      ],
+      "year": 2024,
+      "journal": "Frontiers in Immunology",
+      "doi": "10.3389/fimmu.2024.1321395",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "expectedDOIObserved": true,
+    "pdftotextWarnings": ""
+  },
+  {
+    "id": "duan-2020-gut-microbiota-heavy-metal-probiotic-strategy",
+    "originalPath": "/Users/kmfp/Documents/Claude/Raw.deprecated-2026-05-04/raw copy/Gut microbiota- A target for heavy metal toxicity and a probiotic protective st.pdf",
+    "originalSha256": "fb0f4cc4f8a96893576aede74f781b210f0ae902eecfc0236b465f6db2ca12e4",
+    "textSha256": "bf811ca3a60aa50365fa40802c17d0188e6b4ce936320bb3ece440673a368cc1",
+    "pdfPhysicalPages": 15,
+    "canonicalMetadata": {
+      "title": "Gut Microbiota: A Target for Heavy Metal Toxicity and a Probiotic Protective Strategy",
+      "authors": [
+        "Hui Duan",
+        "Leilei Yu",
+        "Fengwei Tian",
+        "Qixiao Zhai",
+        "Liuping Fan",
+        "Wei Chen"
+      ],
+      "year": 2020,
+      "journal": "Science of the Total Environment",
+      "doi": "10.1016/j.scitotenv.2020.140429",
+      "keystone": true,
+      "keystone_criteria_met": [
+        1,
+        2,
+        3
+      ],
+      "why_keystone": "Frames the bidirectional relationship between metals and dysbiosis: metals drive dysbiosis, and dysbiosis impairs metal detoxification\u2014a positive feedback loop central to WikiBiome's pathophysiology model. Critical for understanding why probiotic intervention (Lactobacillus, Bifidobacterium) can interrupt metal-driven disease across autism, allergies, and metabolic conditions."
+    },
+    "expectedDOIObserved": true,
+    "pdftotextWarnings": ""
+  },
+  {
+    "id": "aquino-2012-cadmium-nickel-metalloestrogens",
+    "originalPath": "/Users/kmfp/Documents/Claude/Raw.deprecated-2026-05-04/raw copy/Role of Cadmium and Nickel in Estrogen Receptor Signaling and Breast Cancer- Metalloestrogens or Not .pdf",
+    "originalSha256": "ae43a23fee4480a22f5c5795574d09f85a06000e94d3ff64666650b293f01032",
+    "textSha256": "7b6a32c82984fabe20d118f83e7bc1e998c47953b356edf5d95bc5651ff7555a",
+    "pdfPhysicalPages": 28,
+    "canonicalMetadata": {
+      "title": "Role of Cadmium and Nickel in Estrogen Receptor Signaling and Breast Cancer: Metalloestrogens or Not?",
+      "authors": [
+        "Aquino NB",
+        "Sevigny MB",
+        "Sabangan J",
+        "Louie MC"
+      ],
+      "year": 2012,
+      "journal": "Journal of Environmental Science and Health Part C - Environmental Carcinogenesis and Ecotoxicology Reviews",
+      "doi": "10.1080/10590501.2012.705159",
+      "keystone": true,
+      "keystone_criteria_met": [
+        2,
+        3,
+        4
+      ],
+      "why_keystone": "Establishes cadmium and nickel as metalloestrogens with distinct mechanistic signatures: cadmium binds ER\u03b1 with affinity near estradiol, activating classical estrogen target genes; nickel induces histone deacetylation and tumor suppressor methylation without competing for estradiol binding. WikiBiome depends on this evidence to explain how metal burden drives estrogen-dependent dysbiosis (estrobolome expansion) in endometriosis and hormonally-sensitive cancers\u2014linking metallomics to the estrobolome pathway."
+    },
+    "expectedDOIObserved": true,
+    "pdftotextWarnings": ""
+  },
+  {
+    "id": "robinson-2020-metalation-natures-challenge",
+    "originalPath": "/Users/kmfp/Documents/Claude/Raw.deprecated-2026-05-04/raw copy/mismetallation_pathogens_CLEAN/MM_7239837_Metalation_natures_challenge_in_bioinorganic_chemistry.pdf",
+    "originalSha256": "aa692f435294b5dd8b3b17ba01821e7f13eba01834636e60691fbaf43cf54c0f",
+    "textSha256": "459194e763376e25ace19fe49855650cddd02f34520c3c944ac03367478970d8",
+    "pdfPhysicalPages": 3,
+    "canonicalMetadata": {
+      "title": "Robinson & Glasfeld 2020 \u2014 Metalation and Mis-metalation: Nature's Challenge in Metal Coordination",
+      "authors": [
+        "Nigel J. Robinson",
+        "Andrea Glasfeld"
+      ],
+      "year": 2020,
+      "journal": "Journal of Biological Inorganic Chemistry",
+      "doi": "10.1007/s00775-020-01790-3",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "expectedDOIObserved": true,
+    "pdftotextWarnings": ""
+  },
+  {
+    "id": "akash-2023-metabolomics-heavy-metal-toxicities",
+    "originalPath": "/Users/kmfp/Documents/Claude/Raw.deprecated-2026-05-04/raw copy/Heavy Metals/Metabolomics Heavy Metals/Metabolomics- a promising tool for deciphering metabolic impairment in heavy metal toxicities.pdf",
+    "originalSha256": "a5470153f42b979c329d511d01dcb882e4abc5db54a505d46ddff57acf4ffac2",
+    "textSha256": "cd30a0df818d13e4769a71cccb2c11a0db5ba42f62b537ee878f95d17a9d5446",
+    "pdfPhysicalPages": 10,
+    "canonicalMetadata": {
+      "title": "Metabolomics: a promising tool for deciphering metabolic impairment in heavy metal toxicities",
+      "authors": [
+        "Akash MSH",
+        "Yaqoob A",
+        "Rehman K",
+        "Imran M",
+        "Assiri MA",
+        "Al-Rashed F",
+        "Al-Mulla F",
+        "Ahmad R",
+        "Sindhu S"
+      ],
+      "year": 2023,
+      "journal": "Frontiers in Molecular Biosciences",
+      "doi": "10.3389/fmolb.2023.1218497",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "expectedDOIObserved": true,
+    "pdftotextWarnings": ""
+  },
+  {
+    "id": "haddad-2024-heavy-metals-vitamin-d-pth-ra-fibromyalgia",
+    "originalPath": "/Users/kmfp/Documents/Claude/Raw.deprecated-2026-05-04/raw copy/6. Impact of heavy metals on serum vitamin D3 and PTH in bromyalgia and rheumat.pdf",
+    "originalSha256": "08e552024a4f71f704019b7b1e29ea39e01beb09714557eb270916e85bf4d59d",
+    "textSha256": "618e05d8c6df031f6e6890dd8a5e99264b4853b3031b2b15bd337e4d87975488",
+    "pdfPhysicalPages": 11,
+    "canonicalMetadata": {
+      "title": "Impact of heavy metals on serum vitamin D3 and PTH in fibromyalgia and rheumatoid arthritis and their correlation to disease activity",
+      "authors": [
+        "Haddad R",
+        "Elbeialy A",
+        "El Sawy S",
+        "Elzomor H"
+      ],
+      "year": 2024,
+      "journal": "Research Square (Preprint)",
+      "doi": "not yet verified",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "expectedDOIObserved": false,
+    "pdftotextWarnings": ""
+  },
+  {
+    "id": "bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota",
+    "originalPath": "/Users/kmfp/Documents/Claude/Raw.deprecated-2026-05-04/raw copy/Mechanism of Iron Ion Homeostasis in Intestinal Immunity and Gut Microbiota Rem.pdf",
+    "originalSha256": "949b075c8ba196cf44c2721c333e9590e3ecb764e11513fd63fc333b90d95565",
+    "textSha256": "8bdf42fd2823919e0776b6e0633069ffe43828cba213b4113886911be17c2bd5",
+    "pdfPhysicalPages": 21,
+    "canonicalMetadata": {
+      "title": "Mechanism of Iron Ion Homeostasis in Intestinal Immunity and Gut Microbiota Remodeling",
+      "authors": [
+        "Honghong Bao",
+        "Yi Wang",
+        "Hanlin Xiong",
+        "Yaoyao Xia",
+        "Zhifu Cui",
+        "Lingbin Liu"
+      ],
+      "year": 2024,
+      "journal": "International Journal of Molecular Sciences",
+      "doi": "10.3390/ijms25020727",
+      "keystone": true,
+      "keystone_criteria_met": [
+        1,
+        3,
+        4
+      ],
+      "why_keystone": "Establishes iron homeostasis as a critical junction between host immunity (hepcidin-ferroportin axis) and microbiota composition\u2014demonstrating how iron deficiency depletes Lactobacillus while iron excess enriches pathogenic Bacteroides and E. coli. This paper is foundational to WikiBiome's iron signatures across anemia, IBD, and metabolic disease."
+    },
+    "expectedDOIObserved": true,
+    "pdftotextWarnings": ""
+  },
+  {
+    "id": "yang-2020-vaginal-microbiome-hpv16-shotgun-metagenomics",
+    "originalPath": "/Users/kmfp/Documents/Claude/Raw.deprecated-2026-05-04/raw copy/erectile dysfunction/The alterations of vaginal microbiome in HPV16 infection as identified by shotgun metagenomic sequencing.pdf",
+    "originalSha256": "327869706cb9942643843769f47ce958ffa8e780903de9f162b51ddb1f2e1607",
+    "textSha256": "1c7a158f335dd3688259daa6ce246e59bcecfab912b0e9bfc90fe7b014cbe6ee",
+    "pdfPhysicalPages": 14,
+    "canonicalMetadata": {
+      "title": "Yang 2020 \u2014 Vaginal Microbiome Alterations in HPV16 Infection by Shotgun Metagenomics",
+      "authors": [
+        "Qian Yang",
+        "Yaping Wang",
+        "Xinyi Wei",
+        "Jiawei Zhu",
+        "Xinyu Wang",
+        "Xing Xie",
+        "Weiguo Lu"
+      ],
+      "year": 2020,
+      "journal": "Frontiers in Cellular and Infection Microbiology",
+      "doi": "10.3389/fcimb.2020.00286",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "expectedDOIObserved": true,
+    "pdftotextWarnings": ""
+  }
+]

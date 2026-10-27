@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "base": "11f98e336f46648b5440f14816680c5deac1c82b",
+  "method": "Original build-content.cjs logic evaluated with only OUTPUT_PATH redirected to private scratch; no tracked producer or data changed.",
+  "originalScriptSHA256": "78e9545cc8a5549abf7d2d643ef6c8d926c21bd3c50041f91683eaae607eceaf",
+  "baseJSONSHA256": "2e430027394545ac6fbcc66b66ac948f94ef822e670b666a64027c4d64b209c3",
+  "dryRunJSONSHA256": "b9d9bd154d4a8fcd9fad173410a671945c8edfddd5779f59290b1a3653fa5f07",
+  "onlyDifference": "_generated timestamp",
+  "afterRestoringBaseTimestampEntireJSONDeepEqual": true,
+  "all863OrderedPageOccurrencesExact": true,
+  "all1939SourceObjectsExact": true,
+  "statsGraphEvidenceSignaturesAssociatedConditionsExact": true,
+  "duplicatePageIDs": "Existing duplicate IDs require ordered occurrence comparison, not collapsing to dictionary; no duplicate cleanup."
+}

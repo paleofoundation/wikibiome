@@ -1,0 +1,117 @@
+ok    canonical origin is www
+ok    canonical host is www
+ok    apex host is bare wikibiome.com
+ok    homepage canonical has trailing slash
+ok    article canonical has no trailing slash
+ok    trailing slash is stripped off article paths
+ok    normalizePath adds a leading slash
+ok    sitemap entries use www host
+ok    flagship invariant contains exactly 30 URLs
+ok    Vite config declares the generated output directory
+ok    generated sitemap.xml exists in the configured output
+ok    generated sitemap contains all 30 flagship URLs
+ok    index baseline contains the flagship invariant section
+ok    documented flagship URLs match the automated invariant
+ok    complete pages are indexable
+ok    stubs are not indexable
+ok    below-threshold pages are not indexable
+ok    stubs emit noindex
+ok    complete pages emit index
+ok    robots allows the public tree
+ok    robots blocks API
+ok    robots blocks outreach dashboard
+ok    robots does not block /article
+ok    robots does not block categories
+ok    robots lists sitemap.xml on www
+ok    robots lists image-sitemap.xml on www
+ok    robots does not advertise the apex host
+ok    robots contains /api/
+ok    robots contains /outreach
+ok    robots contains /contributions
+ok    robots contains /article/*/suggest
+ok    image sitemap uses www
+ok    image sitemap declares the image namespace
+ok    apex homepage 301s to www /
+ok    apex article 301s to www article
+ok    apex redirect preserves query string
+ok    http apex upgrades to https www in one hop
+ok    www homepage is not redirected
+ok    www articles are not redirected
+ok    preview hosts are not redirected to www
+ok    signature-explorer aliases to /signatures
+ok    signature-explorer.html aliases to /signatures
+ok    signature-explorer trailing slash aliases
+ok    DNA-damage case alias
+ok    canonical dna-damage is not redirected
+ok    ASD microbiome-signature alias
+ok    real articles are not aliased
+ok    li-2026 source slug is gone
+ok    pendergrass source slug is gone
+ok    chen2023 source slug is gone
+ok    Chen2023 case variant is gone
+ok    male-infertility is gone (no entity page)
+ok    invented STOP index is gone
+ok    real articles are not gone
+ok    410 body is noindex
+ok    410 canonical is /404, not homepage
+ok    410 does not canonical to homepage
+ok    apex signature-explorer is 301
+ok    apex + explorer is one hop to www/signatures
+ok    www signature-explorer 301s to /signatures
+ok    DNA-damage 301s to lowercase
+ok    apex + ASD alias is one hop
+ok    GSC apex glyoxalase 301s to www (host split)
+ok    GSC apex CRC 301s to www
+ok    male-infertility is HTTP 410
+ok    gone slugs 410 on apex too (no 301 chain)
+ok    preview hosts keep their host on path aliases
+ok    vercel.json forces no trailing slash
+ok    vercel.json has no catch-all rewrite to index.html
+ok    vercel.json has an explicit / apex→www 301 (/:path* misses root)
+ok    vercel.json has /:path* apex→www 301
+ok    apex redirect targets are www
+ok    apex redirects are permanent (Vercel 308)
+ok    vercel.json must not set statusCode — it is private and fails deploy
+ok    vercel.json must not set both permanent and statusCode
+ok    article rewrite remains for static HTML
+ok    signature-explorer is not rewritten to Babel HTML
+ok    vercel.json redirects signature-explorer and .html
+ok    explorer redirects are relative /signatures (preview-safe)
+ok    explorer redirects are permanent
+ok    ASD soft-404 slug redirects to the signature page
+ok    middleware uses shared SEO redirect helper
+ok    middleware returns HTTP 301
+ok    middleware can return HTTP 410
+ok    middleware uses Node.js / Fluid Compute
+ok    SPA unknown routes render NotFoundView
+ok    SPA unknown routes no longer render the homepage
+ok    NotFoundView is defined
+ok    SPA no longer links crawlers to the Babel explorer
+ok    SPA disease CTA no longer uses the Babel explorer URL
+ok    public/robots.txt sitemap uses www
+ok    public/robots.txt blocks API
+ok    public/robots.txt blocks outreach
+ok    donation checkout endpoint is removed
+ok    SPA contains no donation or Stripe CTA
+ok    public collaboration hub does not promote the private outreach directory
+ok    researcher CTA uses the public research submission path
+ok    about is an indexable special page
+ok    outreach is noindex
+ok    search is noindex
+ok    about is not noindex
+ok    indexable special pages have unique titles
+ok    indexable special titles are non-empty
+ok    signatures hub is self-canonical on www
+ok    explore hub is self-canonical on www
+ok    hub pages share an internal-link nav
+ok    generator filters stubs out of hubs and sitemap
+ok    empty/stub-only categories are not sitemapped
+ok    leftover explorer HTML is noindex if still fetched
+=== WikiBiome Static HTML Generator ===
+Dist directory: /Users/kmfp/Documents/Codex/2026-10-25/you-are-conductor-the-single-codex/work/fill-thin-wb-1/checkout/dist-v28
+Script tag: found
+ok    404.html is noindex
+ok    404.html canonical is /404
+ok    404.html does not canonical to the homepage
+
+All SEO invariants passed

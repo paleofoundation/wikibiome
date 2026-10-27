@@ -70,3 +70,9 @@ EDTA has limited efficacy for cadmium poisoning because cadmium accumulates in r
 - [[intestinal-permeability|barrier-dysfunction]] — EDTA's calcium chelation increases permeability
 - [[n-acetyl-cysteine]] — complementary glutathione-based metal detoxification
 - [[metal-resistance-genes]] — organisms with efflux pumps may resist EDTA effects
+
+## Reading the cited evidence
+
+The nickel-chelation study by Benoit and colleagues tested dimethylglyoxime, abbreviated DMG, rather than EDTA. Its introduction distinguishes this nickel-preferring compound from older chelators. Findings about a named chelator therefore need to remain attached to that compound rather than being treated as interchangeable evidence for EDTA. (Source locator: PDF p1 Abstract; p2 Introduction). [[benoit-2019-nickel-chelation-therapy-mdr-enteric-pathogens]]
+
+The reported experiments include bacterial cultures, infected mice and wax-moth larvae. Enzyme activity, bacterial growth and animal infection outcomes are different endpoints. These experiments provide preclinical context for metal sequestration; they do not establish the safety or effectiveness of an EDTA treatment regimen in people. (Source locator: PDF p1 Abstract; p8 Galleria experiments). [[benoit-2019-nickel-chelation-therapy-mdr-enteric-pathogens]]

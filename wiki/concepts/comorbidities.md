@@ -81,3 +81,9 @@ This framework predicts that interventions targeting the shared mediator (microb
 
 - [[luqman-2024-intestinal-microbiome-cvd-intervention]]
 - [[herrema-2020-microbiome-cardiovascular-disease-ascvd]]
+
+## Reading the cited evidence
+
+Luqman and colleagues review links between the intestinal microbiome, microbial metabolites and cardiovascular risk factors, including inflammation and diabetes. This is a synthesis of existing literature, rather than a newly recruited cohort in which all of those conditions were measured together. (Source locator: PDF p1 Abstract; p2 Introduction). [[luqman-2024-intestinal-microbiome-cvd-intervention]]
+
+The review discusses short-chain fatty acids, bile acids and trimethylamine-related metabolism as possible connections between intestinal and cardiovascular biology. A shared pathway can motivate investigation of comorbidity, but the review does not establish that every person with overlapping diagnoses has the same microbial cause. (Source locator: PDF p1 Abstract; p2 Introduction). [[luqman-2024-intestinal-microbiome-cvd-intervention]]

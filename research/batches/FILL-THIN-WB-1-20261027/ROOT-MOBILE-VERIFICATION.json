@@ -1,0 +1,79 @@
+{
+  "timestamp": "2026-10-27T16:47:02.073698+02:00",
+  "status": "PASS bounded mobile reading and exact source tuples",
+  "candidateSha256": "9a07b6f9fd3f1f84a5a4d2eba479b8cc58cf6e096ce01cde22eb907bf5d1a8fa",
+  "canonicalSha256": "bb52ba10efc9114b85b12d01b52bdb8aaf139a23159cc133752ef5b6062e8a8d",
+  "selectedPages": 10,
+  "exactVisibleSourceTextLocatorURLTuples": 20,
+  "irvingNarrowingExact": true,
+  "preprintVisible": true,
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "baselineMetricsEqualAllTen": true,
+  "documentScrollWidth": 384,
+  "bodyScrollWidthRange": [
+    684,
+    698
+  ],
+  "inheritedWidthQualification": "Body/main scrollWidth exceeds viewport due inherited layout/hidden tooltip structure; all ten baseline dimensions exact. No blanket no-overflow claim or shared renderer repair. All ten source-note screenshots visually read; prose and locators wrap within the visible reading column.",
+  "normalization": "Paragraph innerText excludes existing hidden wikilink previews. Remove final visible citation marker only; compare remaining text, locator and numbered reference DOI URL exactly.",
+  "evidence": [
+    {
+      "path": "work/wb1-root-mobile/baseline-widths.json",
+      "sha256": "62d90a5d67ccece7f130bbd145b343caaf3a4b7f5880ee2b7db9c843cb25da81"
+    },
+    {
+      "path": "work/wb1-root-mobile/biomarkers.png",
+      "sha256": "f5222bc24594e4c13530a8ad8bca7a7e12ecf63d784eff7b02c1c1f1e9865b04"
+    },
+    {
+      "path": "work/wb1-root-mobile/comorbidities.png",
+      "sha256": "7e8d0a4e38eb8778bf5e41628916939f68a80e3f3a455ae71fce43de691c4b5e"
+    },
+    {
+      "path": "work/wb1-root-mobile/edta.png",
+      "sha256": "f48158fc0baab5723ad2e342d7c195ce052f06a02b769fe3efce589beeb7b3f6"
+    },
+    {
+      "path": "work/wb1-root-mobile/exposome.png",
+      "sha256": "60d4070c6c4ee2071f71881da46ffc2a376b2c8d946838b9583ef5909ebf9586"
+    },
+    {
+      "path": "work/wb1-root-mobile/ferritin.png",
+      "sha256": "8cdb65e95d8f36620d81da37aeef42930a56afb8610a293c2ab42fb9710a3378"
+    },
+    {
+      "path": "work/wb1-root-mobile/hyperparathyroidism.png",
+      "sha256": "b1e362d925a8ded2e81ce4902421c39c39590acfc28fa73a3a70428d56ecb082"
+    },
+    {
+      "path": "work/wb1-root-mobile/irving-narrowing.json",
+      "sha256": "c2bd62ea9bede4440decca58c7fa50ac4c5db7ad20faec032f230419f80b2326"
+    },
+    {
+      "path": "work/wb1-root-mobile/irving-williams-series.png",
+      "sha256": "8cfda1b3f61e0c4044ad7f1d497f6d3bd5ae2139ee26281cb7757568f495fd04"
+    },
+    {
+      "path": "work/wb1-root-mobile/metalloestrogen.png",
+      "sha256": "3141d36b44640c3b391fe97b750eb6ebb8d817c89deafa050d41ac11b867022c"
+    },
+    {
+      "path": "work/wb1-root-mobile/oxalates.png",
+      "sha256": "159884cbd7a16bf391152d8c3e3bd1f79b002ebed662325060dcad44a1e2b09f"
+    },
+    {
+      "path": "work/wb1-root-mobile/oxygen-state.png",
+      "sha256": "a7f3cdfc54aa48f5da8dcf5180846e9d7b4d7e8d37ff51fac0bed4dd683c7dbf"
+    },
+    {
+      "path": "work/wb1-root-mobile/visible-tuples.json",
+      "sha256": "dc374589cb257a553581991512090399017c66e84864fa6e6a2ffd385754ea74"
+    }
+  ],
+  "cleanup": "Own tab29 closed; viewport reset; user tab untouched.",
+  "scientificApproval": false,
+  "releaseAuthorization": false
+}

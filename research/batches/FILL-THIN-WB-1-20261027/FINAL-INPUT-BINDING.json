@@ -1,0 +1,32 @@
+{
+  "canonical": {
+    "path": "src/content.generated.json",
+    "sha256": "bb52ba10efc9114b85b12d01b52bdb8aaf139a23159cc133752ef5b6062e8a8d"
+  },
+  "builtJavaScript": {
+    "assets/content-CgAivuVp.js": "395ec0f1125427d59e8dae5e028bb38eb3c4d95b7a242db6409005bd377bdc0f",
+    "assets/d3-CSuWbtFz.js": "b656ab31edd79f15aad111e7d61e0b80de480f89cfdcdaffb85ef5f9dcfbb174",
+    "assets/icons-Cc2F2JZ7.js": "926d27823ee5fe0d89fcebd27e650fdb5e68ffaf335aa2ea282ee0c2359c5e00",
+    "assets/index-C1Qxw03H.js": "cf7a5a2248223decd5a8b6f5f3423cf815b5b3cc2d9814b32ad4b24690bcfde4",
+    "assets/react-CoeMXAFd.js": "09651ecc3d9180693ba0603979af4999304b18362b58615efbde5a608d22c56d",
+    "assets/recharts-Pubj9mvj.js": "4e34d92832dad83c4d1d7d911b0abb6160a96beac13d0abe6e7d0a9055c6cab1",
+    "assets/router-Ban3oIja.js": "72c4901dbc9757448cf1777ed1fa71e7643299bebf55ad75844a7002e7318fb4",
+    "assets/vendor-QNWHCmGH.js": "3f519e0ab20bf80befdedcbc9a6c6c321998e5165d380cf356442345d9af4806"
+  },
+  "selectedHTML": {
+    "edta": "cf28104ca0356c50b741214a95f3de463e7f209c49cf54fbe94da52fb91e5ef6",
+    "exposome": "1df59a57bad126fd3b86657cfbcca44062c45969a7dfc73c46a5a968e5b9d1d5",
+    "comorbidities": "78ac26ab6f8579c293dbd62f6fedb449fbb31418ccbdf78bb065d583e2a7e864",
+    "oxygen-state": "28c5bcd6bdfca6a83edd0cb990f4327f93f31821607c8e12c91d0d50e1a49250",
+    "oxalates": "4ecd53728b977b6a57484f7a1ca4c4353fcb6724c61d387978ea1e5d8b05e325",
+    "metalloestrogen": "12d42e9612d743a6b3a20695cf3a0e1a8f91da156b17bd42cd04bfdfcaa4c40d",
+    "irving-williams-series": "2422d94e8bf38e3cff45c2e8e955a53af1567aba23c0dca6e2a49bdf6c140a30",
+    "biomarkers": "8d25ee360b2eeeb8a37f3aa29af90d5dfb02270082e7b32e1e92586fbed919b3",
+    "hyperparathyroidism": "486d240df2543fb8c26b27c5b07cbeea8d34754c49f54b12a3684a3d61f88249",
+    "ferritin": "3e0673e168a23a2a077f0fccee8142712d99b5a2417991090c87102e502a7752"
+  },
+  "staticGeneratorSHA256": "1b67ed2b97b57751870adb8fb13caf1a2e98f61d2c0201e4dfad860f47066450",
+  "rendererSHA256": "af90c8be4e7c19fb4816a88486bdaddfbe355ede5776fb09bf2fed16afb73f86",
+  "preview": "http://127.0.0.1:8795",
+  "sourceReceiptSHA256": "db157f24e16987fb3926b8c03734f623c1c83d1d4d6d1795c3df9ec7ff18660f"
+}

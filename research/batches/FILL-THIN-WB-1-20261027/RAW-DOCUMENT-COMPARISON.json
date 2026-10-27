@@ -1,0 +1,11 @@
+{
+  "path": "article/acidaminococcus/index.html",
+  "beforeRawSHA256": "b2a72b00094219a8c0104aa7714ddbc1c61f191c1e53b586c1fa59fa732a5a66",
+  "afterRawSHA256": "3cf08c4112dbf51450ca391819d4348d82eb852749147fddc7a22500cb04061e",
+  "rawWholeDocumentEqual": false,
+  "firstDifferenceOffset": 14327,
+  "beforeFragment": "\n    </article>\n  </div>\n  <script type=\"module\" crossorigin src=\"/assets/index-DRlA7BhM.js\"></script>\n</body>\n</html>",
+  "afterFragment": "\n    </article>\n  </div>\n  <script type=\"module\" crossorigin src=\"/assets/index-C1Qxw03H.js\"></script>\n</body>\n</html>",
+  "normalizationUsed": false,
+  "outsideRawArticleExact": "RENDERED-CHECK.json"
+}

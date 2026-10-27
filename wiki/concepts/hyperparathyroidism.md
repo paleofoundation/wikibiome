@@ -110,3 +110,9 @@ The relationship between hyperparathyroidism and the gut microbiome operates thr
 - [[cadmium]] -- Cd interference with renal vitamin D activation
 - [[mis-metallation]] -- toxic metals entering through calcium channels
 - [[fibromyalgia]] -- shared metal-VitD-PTH disruption
+
+## Reading the cited evidence
+
+The held Research Square preprint by Haddad and colleagues compares adults with rheumatoid arthritis, adults with fibromyalgia and healthy controls. It reports serum metal measurements alongside vitamin D and parathyroid hormone. This is a case-controlled comparison, rather than an experiment that assigns metal exposure or a treatment. (Source locator: PDF p1 preprint identity; p2 Abstract Methods). [[haddad-2024-heavy-metals-vitamin-d-pth-ra-fibromyalgia]]
+
+The preprint reports correlations and proposes an explanation involving vitamin D and parathyroid hormone. Those observations do not by themselves establish the sequence of events or show that removing an exposure would correct the hormone disturbance. Its preprint status remains explicit; no peer-review approval is claimed here. (Source locator: PDF p1 preprint identity; p2 Abstract Results and Conclusion). [[haddad-2024-heavy-metals-vitamin-d-pth-ra-fibromyalgia]]
