@@ -1,0 +1,19 @@
+=== WikiBiome Static HTML Generator ===
+Dist directory: /Users/kmfp/Documents/Codex/2026-10-25/you-are-conductor-the-single-codex/work/wb1-baseline-dist
+Script tag: found
+  Generated: / (homepage)
+  Generated: 863 article pages (165 stubs/thin pages excluded from sitemap)
+  Generated: 10 category pages
+  Generated: 16 special pages (unique HTML, no homepage clones)
+  Generated: 404.html (noindex, self-canonical)
+  Generated: sitemap.xml (670 URLs — indexable only)
+  Generated: sitemap-full.xml (670 URLs — alias)
+  Generated: image-sitemap.xml
+  Generated: robots.txt
+
+=== Static generation complete ===
+Total sitemap URLs: 670
+  Homepage: 1
+  Articles: 698 indexable (165 noindex)
+  Categories: 10
+  Special (indexable): 9

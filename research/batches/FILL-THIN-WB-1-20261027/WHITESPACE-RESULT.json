@@ -1,0 +1,11 @@
+{
+  "fullStagedDiffCheckExit": 0,
+  "warningCount": 0,
+  "fullWarningLines": [],
+  "applicationDiffCheckExit": 0,
+  "applicationOutput": "",
+  "CRLFFiles": [],
+  "rawLogsPreserved": true,
+  "copiedAuditCsv": "Packet CSV line endings only converted to LF; scratch raw unchanged",
+  "stage": "Before final hashes/PR metadata; final scope check follows"
+}

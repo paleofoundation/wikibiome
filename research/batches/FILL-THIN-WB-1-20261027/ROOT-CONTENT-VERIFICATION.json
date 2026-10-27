@@ -1,0 +1,88 @@
+{
+  "base": "11f98e336f46648b5440f14816680c5deac1c82b",
+  "canonicalSha256": "bb52ba10efc9114b85b12d01b52bdb8aaf139a23159cc133752ef5b6062e8a8d",
+  "selected": [
+    {
+      "index": 362,
+      "id": "biomarkers",
+      "fields": [
+        "sections"
+      ]
+    },
+    {
+      "index": 374,
+      "id": "comorbidities",
+      "fields": [
+        "sections"
+      ]
+    },
+    {
+      "index": 397,
+      "id": "edta",
+      "fields": [
+        "sections",
+        "wikilinks"
+      ]
+    },
+    {
+      "index": 411,
+      "id": "exposome",
+      "fields": [
+        "sections",
+        "wikilinks"
+      ]
+    },
+    {
+      "index": 415,
+      "id": "ferritin",
+      "fields": [
+        "sections"
+      ]
+    },
+    {
+      "index": 448,
+      "id": "hyperparathyroidism",
+      "fields": [
+        "sections"
+      ]
+    },
+    {
+      "index": 469,
+      "id": "irving-williams-series",
+      "fields": [
+        "overview",
+        "sections",
+        "wikilinks"
+      ]
+    },
+    {
+      "index": 495,
+      "id": "metalloestrogen",
+      "fields": [
+        "sections"
+      ]
+    },
+    {
+      "index": 528,
+      "id": "oxalates",
+      "fields": [
+        "sections",
+        "wikilinks"
+      ]
+    },
+    {
+      "index": 530,
+      "id": "oxygen-state",
+      "fields": [
+        "sections",
+        "wikilinks"
+      ]
+    }
+  ],
+  "status": "PASS",
+  "allOtherPageFieldsExact": true,
+  "existingSectionsOnlyExactIrvingReplacement": true,
+  "sourceObjects": 1939,
+  "changedSourceFields": 1,
+  "otherTopLevelFieldsExact": true
+}

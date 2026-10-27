@@ -6,7 +6,7 @@ updated: 2026-04-09
 authors: [Haddad R, Elbeialy A, El Sawy S, Elzomor H]
 journal: "Research Square (Preprint)"
 year: 2024
-doi: "not yet verified"
+doi: "10.21203/rs.3.rs-4596002/v1"
 tags: [heavy-metals, vitamin-D, parathyroid-hormone, rheumatoid-arthritis, fibromyalgia, lead, cadmium, chromium, aluminium]
 platform: wikibiome
 evidence_level: case-control

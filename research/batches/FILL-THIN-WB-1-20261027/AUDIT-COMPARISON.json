@@ -1,0 +1,176 @@
+{
+  "status": "PASS local audit completed",
+  "same375Statuses": true,
+  "selected": [
+    {
+      "url": "https://www.wikibiome.com/article/biomarkers",
+      "rank": "217",
+      "beforeWords": 585,
+      "afterWords": 697,
+      "beforeCitations": 3,
+      "afterCitations": 3,
+      "beforeFlags": "",
+      "afterFlags": "",
+      "beforeThin": "no",
+      "afterThin": "no"
+    },
+    {
+      "url": "https://www.wikibiome.com/article/comorbidities",
+      "rank": "209",
+      "beforeWords": 658,
+      "afterWords": 763,
+      "beforeCitations": 3,
+      "afterCitations": 3,
+      "beforeFlags": "",
+      "afterFlags": "",
+      "beforeThin": "no",
+      "afterThin": "no"
+    },
+    {
+      "url": "https://www.wikibiome.com/article/edta",
+      "rank": "202",
+      "beforeWords": 741,
+      "afterWords": 852,
+      "beforeCitations": 8,
+      "afterCitations": 8,
+      "beforeFlags": "",
+      "afterFlags": "",
+      "beforeThin": "no",
+      "afterThin": "no"
+    },
+    {
+      "url": "https://www.wikibiome.com/article/exposome",
+      "rank": "205",
+      "beforeWords": 787,
+      "afterWords": 894,
+      "beforeCitations": 5,
+      "afterCitations": 5,
+      "beforeFlags": "",
+      "afterFlags": "",
+      "beforeThin": "no",
+      "afterThin": "no"
+    },
+    {
+      "url": "https://www.wikibiome.com/article/ferritin",
+      "rank": "220",
+      "beforeWords": 799,
+      "afterWords": 919,
+      "beforeCitations": 2,
+      "afterCitations": 2,
+      "beforeFlags": "",
+      "afterFlags": "",
+      "beforeThin": "no",
+      "afterThin": "no"
+    },
+    {
+      "url": "https://www.wikibiome.com/article/hyperparathyroidism",
+      "rank": "219",
+      "beforeWords": 814,
+      "afterWords": 941,
+      "beforeCitations": 5,
+      "afterCitations": 6,
+      "beforeFlags": "",
+      "afterFlags": "",
+      "beforeThin": "no",
+      "afterThin": "no"
+    },
+    {
+      "url": "https://www.wikibiome.com/article/irving-williams-series",
+      "rank": "216",
+      "beforeWords": 823,
+      "afterWords": 941,
+      "beforeCitations": 5,
+      "afterCitations": 5,
+      "beforeFlags": "",
+      "afterFlags": "",
+      "beforeThin": "no",
+      "afterThin": "no"
+    },
+    {
+      "url": "https://www.wikibiome.com/article/metalloestrogen",
+      "rank": "213",
+      "beforeWords": 681,
+      "afterWords": 789,
+      "beforeCitations": 3,
+      "afterCitations": 3,
+      "beforeFlags": "",
+      "afterFlags": "",
+      "beforeThin": "no",
+      "afterThin": "no"
+    },
+    {
+      "url": "https://www.wikibiome.com/article/oxalates",
+      "rank": "212",
+      "beforeWords": 824,
+      "afterWords": 935,
+      "beforeCitations": 4,
+      "afterCitations": 4,
+      "beforeFlags": "",
+      "afterFlags": "",
+      "beforeThin": "no",
+      "afterThin": "no"
+    },
+    {
+      "url": "https://www.wikibiome.com/article/oxygen-state",
+      "rank": "211",
+      "beforeWords": 796,
+      "afterWords": 914,
+      "beforeCitations": 8,
+      "afterCitations": 8,
+      "beforeFlags": "",
+      "afterFlags": "",
+      "beforeThin": "no",
+      "afterThin": "no"
+    }
+  ],
+  "outsideAuditDifferences": [
+    {
+      "url": "https://www.wikibiome.com/article/chromium",
+      "before": {
+        "words": 3850,
+        "citations": 27,
+        "thin_reasons": "",
+        "thin": "no"
+      },
+      "after": {
+        "words": 3857,
+        "citations": 28,
+        "thin_reasons": "",
+        "thin": "no"
+      }
+    },
+    {
+      "url": "https://www.wikibiome.com/article/copper",
+      "before": {
+        "words": 6224,
+        "citations": 46,
+        "thin_reasons": "",
+        "thin": "no"
+      },
+      "after": {
+        "words": 6231,
+        "citations": 47,
+        "thin_reasons": "",
+        "thin": "no"
+      }
+    },
+    {
+      "url": "https://www.wikibiome.com/article/lead",
+      "before": {
+        "words": 5269,
+        "citations": 51,
+        "thin_reasons": "",
+        "thin": "no"
+      },
+      "after": {
+        "words": 5276,
+        "citations": 52,
+        "thin_reasons": "",
+        "thin": "no"
+      }
+    }
+  ],
+  "all10ClearBeforeAndAfter": true,
+  "liveSiteClaim": false,
+  "flagImprovementClaim": false
+}

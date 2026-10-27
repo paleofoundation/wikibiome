@@ -89,3 +89,9 @@ Bacterial iron storage competes with host iron restriction strategies. When macr
 - [[ceruloplasmin]] -- ferroxidase activity parallels ferritin H-chain function
 - [[nutritional-immunity]] -- ferritin is part of the host's iron sequestration defense
 - [[transferrin]] -- iron released from ferritin enters plasma via ferroportin and loads onto transferrin
+
+## Reading the cited evidence
+
+Bao and colleagues distinguish storage of iron in intestinal-cell ferritin from export of iron into the circulation. Their review describes retention and eventual loss with cell shedding when cellular iron is high, and transport into the circulation when cellular iron is low. Storage and transport are separate parts of the same regulatory system. (Source locator: PDF p7 Section 6.1). [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]
+
+The review places ferritin within a broader account of iron regulation involving hepcidin, iron transporters and inflammation. This mechanistic context does not turn a ferritin measurement alone into a complete explanation of iron distribution, inflammatory status or a microbiome change in an individual patient. (Source locator: PDF p5 Section 3.2; p7 opening paragraph). [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]

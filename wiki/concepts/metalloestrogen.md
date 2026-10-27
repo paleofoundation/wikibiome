@@ -72,3 +72,9 @@ This dual-source model explains why endometriosis, breast cancer, and PCOS show 
 - [[breast-cancer]] -- Cd metalloestrogen activity in mammary tissue
 - [[endometriosis]] -- Ni metalloestrogen activity and low-nickel diet response
 - [[pcos]] -- multi-metal metalloestrogen burden
+
+## Reading the cited evidence
+
+Aquino and colleagues examine epidemiological, animal and cell studies when assessing the metalloestrogen hypothesis. Their review emphasizes that metal concentration and binding to proteins other than estrogen receptors complicate interpretation. A cellular estrogen-like response is therefore not interchangeable with evidence of cancer development in a population. (Source locator: PDF p1 Abstract). [[aquino-2012-cadmium-nickel-metalloestrogens]]
+
+The authors explicitly describe uncertainty about whether chronic, low-level cadmium or nickel exposure directly causes cancer development and progression. The term metalloestrogen identifies a proposed mode of action under investigation; it does not remove the need to distinguish exposure, receptor signaling and clinical disease. (Source locator: PDF p1 Abstract; p2 Introduction). [[aquino-2012-cadmium-nickel-metalloestrogens]]

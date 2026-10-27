@@ -1,0 +1,26 @@
+{
+  "base": "11f98e336f46648b5440f14816680c5deac1c82b",
+  "candidateSha256": "9a07b6f9fd3f1f84a5a4d2eba479b8cc58cf6e096ce01cde22eb907bf5d1a8fa",
+  "newParagraphs": 20,
+  "existingNarrowings": 1,
+  "selectedIds": [
+    "biomarkers",
+    "comorbidities",
+    "edta",
+    "exposome",
+    "ferritin",
+    "hyperparathyroidism",
+    "irving-williams-series",
+    "metalloestrogen",
+    "oxalates",
+    "oxygen-state"
+  ],
+  "sourceDOIChangeOnly": "haddad-2024-heavy-metals-vitamin-d-pth-ra-fibromyalgia",
+  "globalTimestampRetained": "2026-09-01T18:15:42.888Z",
+  "canonicalSha256": "bb52ba10efc9114b85b12d01b52bdb8aaf139a23159cc133752ef5b6062e8a8d",
+  "allForbiddenTopLevelObjectsExact": true,
+  "allOtherSourceObjectsExact": true,
+  "newCanonicalRecords": 0,
+  "newScientificNumbers": 0,
+  "scientificApproval": false
+}

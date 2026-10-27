@@ -1,0 +1,163 @@
+{
+  "claims": [
+    {
+      "id": "benoit-2019-nickel-chelation-therapy-mdr-enteric-pathogens",
+      "originalSha256": "df930bb5dbb0330f418867e43df312eae483dabe674abcc23a83b3d76a329ac7",
+      "proposedClaimIds": [
+        "WB1-edta-1",
+        "WB1-edta-2"
+      ],
+      "claimLocators": [
+        "PDF p1 Abstract; p2 Introduction",
+        "PDF p1 Abstract; p8 Galleria experiments"
+      ],
+      "status": "Original title/DOI and listed material pages read as text; source claims pending independent root review",
+      "limitations": "DMG rather than EDTA; culture/mice/larvae only"
+    },
+    {
+      "id": "briffa-2020-heavy-metal-pollution-environment-toxicology",
+      "originalSha256": "12f98a8a1fc99d5926f1ff82759dec0410c5c559344e470652f8e2fe16a23ca8",
+      "proposedClaimIds": [
+        "WB1-exposome-1",
+        "WB1-exposome-2"
+      ],
+      "claimLocators": [
+        "PDF p2 Sections 2 and 3",
+        "PDF p2 Section 3"
+      ],
+      "status": "Original title/DOI and listed material pages read as text; source claims pending independent root review",
+      "limitations": "Review-level scope; no numerical or clinical efficacy inference"
+    },
+    {
+      "id": "luqman-2024-intestinal-microbiome-cvd-intervention",
+      "originalSha256": "231934199ac149761ec31afda1b2468b9acea32b21321b7e4db34f33bf5217fd",
+      "proposedClaimIds": [
+        "WB1-comorbidities-1",
+        "WB1-comorbidities-2"
+      ],
+      "claimLocators": [
+        "PDF p1 Abstract; p2 Introduction",
+        "PDF p1 Abstract; p2 Introduction"
+      ],
+      "status": "Original title/DOI and listed material pages read as text; source claims pending independent root review",
+      "limitations": "Review-level scope; no numerical or clinical efficacy inference"
+    },
+    {
+      "id": "duan-2020-gut-microbiota-heavy-metal-probiotic-strategy",
+      "originalSha256": "fb0f4cc4f8a96893576aede74f781b210f0ae902eecfc0236b465f6db2ca12e4",
+      "proposedClaimIds": [
+        "WB1-oxalates-1",
+        "WB1-oxalates-2"
+      ],
+      "claimLocators": [
+        "PDF p3 Section 2.1",
+        "PDF p3 Section 2.1"
+      ],
+      "status": "Original title/DOI and listed material pages read as text; source claims pending independent root review",
+      "limitations": "Review; chemical oxalate-lead and animal evidence not human intervention"
+    },
+    {
+      "id": "aquino-2012-cadmium-nickel-metalloestrogens",
+      "originalSha256": "ae43a23fee4480a22f5c5795574d09f85a06000e94d3ff64666650b293f01032",
+      "proposedClaimIds": [
+        "WB1-metalloestrogen-1",
+        "WB1-metalloestrogen-2"
+      ],
+      "claimLocators": [
+        "PDF p1 Abstract",
+        "PDF p1 Abstract; p2 Introduction"
+      ],
+      "status": "Original title/DOI and listed material pages read as text; source claims pending independent root review",
+      "limitations": "Review-level scope; no numerical or clinical efficacy inference"
+    },
+    {
+      "id": "robinson-2020-metalation-natures-challenge",
+      "originalSha256": "aa692f435294b5dd8b3b17ba01821e7f13eba01834636e60691fbaf43cf54c0f",
+      "proposedClaimIds": [
+        "WB1-irving-williams-series-1",
+        "WB1-irving-williams-series-2"
+      ],
+      "claimLocators": [
+        "PDF p1 Abstract and opening discussion",
+        "PDF p2 Discussion following Figure 1"
+      ],
+      "status": "Original title/DOI and listed material pages read as text; source claims pending independent root review",
+      "limitations": "Commentary; steric/availability discussion, no universal-binding rule"
+    },
+    {
+      "id": "akash-2023-metabolomics-heavy-metal-toxicities",
+      "originalSha256": "a5470153f42b979c329d511d01dcb882e4abc5db54a505d46ddff57acf4ffac2",
+      "proposedClaimIds": [
+        "WB1-biomarkers-1",
+        "WB1-biomarkers-2"
+      ],
+      "claimLocators": [
+        "PDF p2 Section 2; p3 workflow discussion",
+        "PDF p3 workflow discussion"
+      ],
+      "status": "Original title/DOI and listed material pages read as text; source claims pending independent root review",
+      "limitations": "Review-level scope; no numerical or clinical efficacy inference"
+    },
+    {
+      "id": "haddad-2024-heavy-metals-vitamin-d-pth-ra-fibromyalgia",
+      "originalSha256": "08e552024a4f71f704019b7b1e29ea39e01beb09714557eb270916e85bf4d59d",
+      "proposedClaimIds": [
+        "WB1-hyperparathyroidism-1",
+        "WB1-hyperparathyroidism-2"
+      ],
+      "claimLocators": [
+        "PDF p1 preprint identity; p2 Abstract Methods",
+        "PDF p1 preprint identity; p2 Abstract Results and Conclusion"
+      ],
+      "status": "Original title/DOI and listed material pages read as text; source claims pending independent root review",
+      "limitations": "Research Square preprint; case-controlled correlations, no causal or intervention inference"
+    },
+    {
+      "id": "bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota",
+      "originalSha256": "949b075c8ba196cf44c2721c333e9590e3ecb764e11513fd63fc333b90d95565",
+      "proposedClaimIds": [
+        "WB1-ferritin-1",
+        "WB1-ferritin-2"
+      ],
+      "claimLocators": [
+        "PDF p7 Section 6.1",
+        "PDF p5 Section 3.2; p7 opening paragraph"
+      ],
+      "status": "Original title/DOI and listed material pages read as text; source claims pending independent root review",
+      "limitations": "Review-level scope; no numerical or clinical efficacy inference"
+    },
+    {
+      "id": "yang-2020-vaginal-microbiome-hpv16-shotgun-metagenomics",
+      "originalSha256": "327869706cb9942643843769f47ce958ffa8e780903de9f162b51ddb1f2e1607",
+      "proposedClaimIds": [
+        "WB1-oxygen-state-1",
+        "WB1-oxygen-state-2"
+      ],
+      "claimLocators": [
+        "PDF p1 Abstract; p2 Study Population and Sampling",
+        "PDF p12 Discussion and limitations"
+      ],
+      "status": "Original title/DOI and listed material pages read as text; source claims pending independent root review",
+      "limitations": "Vaginal HPV16 comparison, cross-sectional/confounding limits, not intestinal oxygen measurement"
+    }
+  ],
+  "visualChecks": [
+    {
+      "id": "duan-2020-gut-microbiota-heavy-metal-probiotic-strategy",
+      "pdfPage": 3,
+      "observed": "Two-column oxalate passage crosses columns, Section2.1 review attribution retained"
+    },
+    {
+      "id": "robinson-2020-metalation-natures-challenge",
+      "pdfPage": 1,
+      "observed": "COMMENTARY label, DOI and negligible-steric-selection qualification visible"
+    },
+    {
+      "id": "haddad-2024-heavy-metals-vitamin-d-pth-ra-fibromyalgia",
+      "pdfPage": 1,
+      "observed": "Explicit preprint/no-peer-review notice and DOI/version visible"
+    }
+  ],
+  "sourceClaimsApplied": false,
+  "scientificApproval": false
+}

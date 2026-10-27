@@ -1,0 +1,22 @@
+
+> wikibiome@1.0.0 build
+> vite build --outDir ../../wb1-final-dist
+
+vite v5.4.21 building for production...
+
+(!) outDir /Users/kmfp/Documents/Codex/2026-10-25/you-are-conductor-the-single-codex/work/wb1-final-dist is not inside project root and will not be emptied.
+Use --emptyOutDir to override.
+
+transforming...
+✓ 2662 modules transformed.
+rendering chunks...
+../../wb1-final-dist/index.html                        1.79 kB
+../../wb1-final-dist/assets/icons-Cc2F2JZ7.js         10.71 kB
+../../wb1-final-dist/assets/router-Ban3oIja.js        37.32 kB
+../../wb1-final-dist/assets/vendor-QNWHCmGH.js        77.70 kB
+../../wb1-final-dist/assets/d3-CSuWbtFz.js           117.35 kB
+../../wb1-final-dist/assets/react-CoeMXAFd.js        141.91 kB
+../../wb1-final-dist/assets/recharts-Pubj9mvj.js     212.01 kB
+../../wb1-final-dist/assets/index-C1Qxw03H.js        224.34 kB
+../../wb1-final-dist/assets/content-CgAivuVp.js   12,674.42 kB
+✓ built in 5.22s

@@ -122,3 +122,9 @@ For individuals who have lost *O. formigenes*:
 - [[zinc]] -- Zn-oxalate reducing zinc absorption
 - [[prebiotics]] -- fiber supporting Oxalobacter colonization
 - [[antimicrobial-resistance]] -- antibiotic collateral damage to specialist bacteria
+
+## Reading the cited evidence
+
+Duan and colleagues discuss oxalate as a microbial energy substrate and as a molecule capable of forming an insoluble complex with lead. Their review presents this as a possible connection between microbial metabolism and metal absorption, rather than a clinical trial of an oxalate-based intervention. (Source locator: PDF p3 Section 2.1). [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]]
+
+The review also separates microbial binding and transformation of metals from experiments using antibiotic-treated or germ-free animals. It notes that differences in microbiota between species matter for oral metal exposure. Those animal and chemical observations cannot simply be read as a demonstrated treatment effect in humans. (Source locator: PDF p3 Section 2.1). [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]]

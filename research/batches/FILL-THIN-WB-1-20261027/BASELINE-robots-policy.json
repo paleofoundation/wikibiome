@@ -1,0 +1,15 @@
+{
+  "http://127.0.0.1:8795": {
+    "url": "http://127.0.0.1:8795/robots.txt",
+    "status": 200,
+    "allowed": true,
+    "reason": "",
+    "sitemaps": [
+      "https://www.wikibiome.com/sitemap.xml",
+      "https://www.wikibiome.com/image-sitemap.xml"
+    ],
+    "delay": 0.25,
+    "final_url": "http://127.0.0.1:8795/robots.txt",
+    "sha256": "f9043ff01bb89718afe4d3976ad602317e0e6bfc0c98b4ce328b870387a8ec54"
+  }
+}

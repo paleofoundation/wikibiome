@@ -76,3 +76,9 @@ Every disease entity in this wiki sits at the intersection of metal exposome com
 - [[gut-metal-microbiome]] -- the microbiome as exposome filter
 - [[biomarkers]] -- measuring the exposome
 - [[metal-chelation-therapy]] -- intervening on the exposome
+
+## Reading the cited evidence
+
+The environmental review by Briffa and colleagues separates human activities such as mining, industry and agriculture from natural processes such as weathering and volcanic activity. These are descriptions of potential exposure sources, rather than measurements of the exposure received by a particular person. (Source locator: PDF p2 Sections 2 and 3). [[briffa-2020-heavy-metal-pollution-environment-toxicology]]
+
+The same review distinguishes ingestion, inhalation and skin contact as routes by which metals can enter the body. Keeping the route and chemical form visible helps distinguish environmental occurrence from internal exposure. A list of possible sources is not a reconstructed lifetime exposure history. (Source locator: PDF p2 Section 3). [[briffa-2020-heavy-metal-pollution-environment-toxicology]]

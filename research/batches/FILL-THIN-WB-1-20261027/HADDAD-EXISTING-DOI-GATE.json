@@ -1,0 +1,51 @@
+{
+  "base": "11f98e336f46648b5440f14816680c5deac1c82b",
+  "status": "UNAPPLIED GATE",
+  "reason": "Existing selected hyperparathyroidism page cites this held preprint, but native reference URL is absent because canonical DOI is not yet verified. No new source object required.",
+  "original": {
+    "id": "haddad-2024-heavy-metals-vitamin-d-pth-ra-fibromyalgia",
+    "originalPath": "/Users/kmfp/Documents/Claude/Raw.deprecated-2026-05-04/raw copy/6. Impact of heavy metals on serum vitamin D3 and PTH in bromyalgia and rheumat.pdf",
+    "originalSha256": "08e552024a4f71f704019b7b1e29ea39e01beb09714557eb270916e85bf4d59d",
+    "textSha256": "618e05d8c6df031f6e6890dd8a5e99264b4853b3031b2b15bd337e4d87975488",
+    "pdfPhysicalPages": 11,
+    "canonicalMetadata": {
+      "title": "Impact of heavy metals on serum vitamin D3 and PTH in fibromyalgia and rheumatoid arthritis and their correlation to disease activity",
+      "authors": [
+        "Haddad R",
+        "Elbeialy A",
+        "El Sawy S",
+        "Elzomor H"
+      ],
+      "year": 2024,
+      "journal": "Research Square (Preprint)",
+      "doi": "not yet verified",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "expectedDOIObserved": false,
+    "pdftotextWarnings": ""
+  },
+  "observedOriginalIdentity": {
+    "title": "Impact of heavy metals on serum vitamin D3 and PTH in fibromyalgia and rheumatoid arthritis and their correlation to disease activity",
+    "doi": "10.21203/rs.3.rs-4596002/v1",
+    "doiUrl": "https://doi.org/10.21203/rs.3.rs-4596002/v1",
+    "locator": "physical PDF p1 title/Posted Date/DOI; p2 Abstract Methods",
+    "documentStatus": "Research Square preprint; no peer-review approval claimed"
+  },
+  "requestedExactChanges": [
+    {
+      "path": "wiki/sources/haddad-2024-heavy-metals-vitamin-d-pth-ra-fibromyalgia.md",
+      "before": "doi: \"not yet verified\"",
+      "after": "doi: \"10.21203/rs.3.rs-4596002/v1\"",
+      "sourceFileSha256": "5a8fb6b088ef2d15b7267e832a35ce74f783c810c889a2c0bb0fe86a31aae964"
+    },
+    {
+      "path": "src/content.generated.json",
+      "object": "sourceLookup/haddad-2024-heavy-metals-vitamin-d-pth-ra-fibromyalgia/doi",
+      "before": "not yet verified",
+      "after": "10.21203/rs.3.rs-4596002/v1"
+    }
+  ],
+  "invariants": "No new record, source count, index, graph/backlink, component, renderer, sitemap, global timestamp or other object change. Keep existing Research Square (Preprint) journal label. Exact full producer projection should change only this existing source DOI plus already-authorized ten page bodies; otherwise HOLD."
+}

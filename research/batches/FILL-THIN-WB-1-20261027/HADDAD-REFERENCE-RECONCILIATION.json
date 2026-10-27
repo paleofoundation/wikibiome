@@ -1,0 +1,144 @@
+{
+  "initialPrediction": "Exact sid membership/substring scan, preserved in HADDAD-REFERENCE-IMPACT.json; incomplete as renderer reference model",
+  "actualRendererRules": "buildCitations scans source-reference wikilinks and then strips .md from declared source IDs; plain text substring is not a citation. Static generator overwrites duplicate-ID route files in ordered loop (last occurrence wins), React CONTENT.pages.find uses first occurrence. Existing difference retained, no duplicate or renderer fix.",
+  "corrections": {
+    "copper": {
+      "reason": "Declared source ID ends .md; initial exact membership scan missed it. Existing buildCitations strips that suffix and resolves the same Haddad sourceLookup record.",
+      "orderedIndex": 90,
+      "sourceEntry": "haddad-2024-heavy-metals-vitamin-d-pth-ra-fibromyalgia.md"
+    },
+    "fibromyalgia": {
+      "reason": "Existing duplicate ID at entities index128 and signatures index608. First entity occurrence has source citation; later signature occurrence has none. Static generated route last-wins and does not gain DOI; React first-wins and does.",
+      "indices": [
+        128,
+        608
+      ],
+      "noDuplicateCleanup": true
+    },
+    "broken-links-2026-04-16": {
+      "reason": "Haddad slug occurs as plain text in an audit row rather than a valid source-reference wikilink or declared source. Initial substring match was not a rendered citation.",
+      "orderedIndex": 819
+    }
+  },
+  "staticAllDependentUniqueIds": [
+    {
+      "id": "chromium",
+      "orderedIndex": 75
+    },
+    {
+      "id": "copper",
+      "orderedIndex": 90
+    },
+    {
+      "id": "lead",
+      "orderedIndex": 189
+    },
+    {
+      "id": "rheumatoid-arthritis",
+      "orderedIndex": 267
+    },
+    {
+      "id": "hyperparathyroidism",
+      "orderedIndex": 448
+    },
+    {
+      "id": "fibromyalgia-signature",
+      "orderedIndex": 642
+    },
+    {
+      "id": "rheumatoid-arthritis-signature",
+      "orderedIndex": 662
+    }
+  ],
+  "reactAllDependentUniqueIds": [
+    {
+      "id": "chromium",
+      "orderedIndex": 75
+    },
+    {
+      "id": "copper",
+      "orderedIndex": 90
+    },
+    {
+      "id": "fibromyalgia",
+      "orderedIndex": 128
+    },
+    {
+      "id": "lead",
+      "orderedIndex": 189
+    },
+    {
+      "id": "rheumatoid-arthritis",
+      "orderedIndex": 267
+    },
+    {
+      "id": "hyperparathyroidism",
+      "orderedIndex": 448
+    },
+    {
+      "id": "fibromyalgia-signature",
+      "orderedIndex": 642
+    },
+    {
+      "id": "rheumatoid-arthritis-signature",
+      "orderedIndex": 662
+    }
+  ],
+  "staticOutsideSix": [
+    {
+      "id": "chromium",
+      "orderedIndex": 75
+    },
+    {
+      "id": "copper",
+      "orderedIndex": 90
+    },
+    {
+      "id": "lead",
+      "orderedIndex": 189
+    },
+    {
+      "id": "rheumatoid-arthritis",
+      "orderedIndex": 267
+    },
+    {
+      "id": "fibromyalgia-signature",
+      "orderedIndex": 642
+    },
+    {
+      "id": "rheumatoid-arthritis-signature",
+      "orderedIndex": 662
+    }
+  ],
+  "reactOutsideSeven": [
+    {
+      "id": "chromium",
+      "orderedIndex": 75
+    },
+    {
+      "id": "copper",
+      "orderedIndex": 90
+    },
+    {
+      "id": "fibromyalgia",
+      "orderedIndex": 128
+    },
+    {
+      "id": "lead",
+      "orderedIndex": 189
+    },
+    {
+      "id": "rheumatoid-arthritis",
+      "orderedIndex": 267
+    },
+    {
+      "id": "fibromyalgia-signature",
+      "orderedIndex": 642
+    },
+    {
+      "id": "rheumatoid-arthritis-signature",
+      "orderedIndex": 662
+    }
+  ],
+  "grantConsequenceOnly": "Single existing DOI metadata field. All seven React outside records and six static outside route article bodies remain unchanged except their resolved original DOI link. No source, count, graph, index or component change."
+}
