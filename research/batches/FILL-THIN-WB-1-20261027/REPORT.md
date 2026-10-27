@@ -40,3 +40,5 @@ Added public prose and source-locator lines have zero em/en dashes. Existing typ
 | 217 | https://www.wikibiome.com/article/biomarkers | 585 | 697 | clear | clear |
 | 219 | https://www.wikibiome.com/article/hyperparathyroidism | 814 | 941 | clear | clear |
 | 220 | https://www.wikibiome.com/article/ferritin | 799 | 919 | clear | clear |
+
+Final sealing correction: the initial scope verifier passed the content/source/count invariants but then rejected its own newly staged evidence-packet files because its final path predicate omitted that authorized directory. The shell continued to ordinary commit207d3881741fd7d0081df64eed1332b03acd5dbb after that assertion. No push had occurred. The independent exact72-path staged-set check had passed. A normal followup commit corrects only the own-packet scope predicate and disclosure/hashes; all public source/projection bytes and prior build/mobile bindings remain exact. The first commit and immutable final-1650 snapshot are preserved. No assertion on scientific content, frozen files, renderer, index or counts is removed or relaxed. VERIFIER-SCOPE-CORRECTION records both script hashes and the failed check honestly.

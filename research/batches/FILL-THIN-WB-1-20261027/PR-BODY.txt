@@ -10,4 +10,6 @@ Validation: full build, native SEO invariants plus final-sitemap fixture, all20 
 
 No hosted originals/extracts, merge, deploy, Sites publish, secrets or outbound human messages. Scientific, grading, human, integrity and release approval remain pending. Receiver OFF. Draft review only.
 
-REPORT SHA256 ff0b8461b5bea8493659b0e3a1c2f4f9d527179da19a90679eb6ab84a3794a00. SHA256SUMS supplied with the immutable PR readback.
+REPORT SHA256 ffb5d0ce732ab179a95fdf78ef73431face08d8dc41f877caee0c04273f81e2f. SHA256SUMS supplied with the immutable PR readback.
+
+Sealing history: initial commit207d3881 followed a failed own verifier path check that omitted authorized packet files; an independent exact72-path check passed. No push occurred before correction. A normal followup fixes only that bookkeeping predicate/disclosure/hashes, preserving the original commit and final-1650 snapshot. All app bytes/build/mobile bindings unchanged; no history rewrite.
