@@ -10,6 +10,9 @@
 #
 # One pending queue task runs per schedule tick. Open pull requests titled
 # "builder: <task-id>" count as claims, so a later tick does not start the same task.
+# When task_id is empty, next prefers a ready page from the evidence graph
+# (paleofoundation/hmi-evidence-deposits graph/next_work.json) and otherwise
+# keeps queue order.
 # This workflow does not deploy.
 
 name: Claude builder
@@ -21,7 +24,7 @@ on:
   workflow_dispatch:
     inputs:
       task_id:
-        description: "Queue task id to run. Leave empty for the first unclaimed pending task."
+        description: "Queue task id to run. Leave empty to prefer a ready evidence-graph page, then the first unclaimed pending task."
         required: false
         type: string
   pull_request:
@@ -62,7 +65,23 @@ jobs:
         run: npm ci
 
       - name: Validate queue
-        run: node scripts/claude-builder-queue.cjs validate
+        run: |
+          node scripts/claude-builder-queue.cjs validate
+          node --test scripts/claude-builder-queue.test.cjs
+
+      # Read-only sparse checkout of the work list only. Credentials are not
+      # persisted, so this job cannot push to the deposits repo. The rest of
+      # that repository is not fetched.
+      - name: Clone evidence graph
+        if: github.event_name != 'pull_request'
+        uses: actions/checkout@v4
+        with:
+          repository: paleofoundation/hmi-evidence-deposits
+          path: hmi-evidence-deposits
+          persist-credentials: false
+          fetch-depth: 1
+          sparse-checkout: graph/next_work.json
+          sparse-checkout-cone-mode: false
 
       - name: Select next task
         id: next
@@ -70,6 +89,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TASK_ID: ${{ inputs.task_id }}
+          GRAPH_NEXT_WORK: hmi-evidence-deposits/graph/next_work.json
         run: node scripts/claude-builder-queue.cjs next
 
   builder:

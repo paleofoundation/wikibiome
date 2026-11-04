@@ -7,6 +7,9 @@
  *
  * `next` prints the first pending task that is not already claimed by an
  * open pull request titled "builder: <id>". Set TASK_ID to force one task.
+ * With no TASK_ID, a page listed in graph/next_work.json for builder
+ * "wikibiome-claude-builder" with an empty blocked_by is preferred, in file
+ * order. Any other case keeps the current queue order.
  * When GITHUB_OUTPUT is set, or --github-output is passed, writes has_task,
  * task_id, and page for Actions.
  *
@@ -19,10 +22,15 @@ const path = require("path");
 const { spawnSync } = require("child_process");
 const yaml = require("js-yaml");
 
-const QUEUE_PATH = path.join(__dirname, "..", "ops", "claude-builder-queue.yml");
+const QUEUE_PATH = process.env.CLAUDE_BUILDER_QUEUE
+  ? path.resolve(process.env.CLAUDE_BUILDER_QUEUE)
+  : path.join(__dirname, "..", "ops", "claude-builder-queue.yml");
 const STATUSES = new Set(["pending", "done", "blocked"]);
 const ID_RE = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 const PAGE_RE = /^wiki\/(?:entities|concepts)\/[a-z0-9]+(?:-[a-z0-9]+)*\.md$/;
+const GRAPH_BUILDER = "wikibiome-claude-builder";
+const GRAPH_LIST_KEYS = ["items", "work", "next_work", "next", "tasks", "nodes"];
+const GRAPH_PAGE_KEYS = ["page", "path", "wiki_page", "target"];
 
 function fail(message) {
   console.error(`claude-builder-queue: ${message}`);
@@ -102,6 +110,115 @@ function writeOutput(pairs) {
   }
 }
 
+function blockedByIsEmpty(value) {
+  if (value == null) return true;
+  if (typeof value === "string") return value.trim() === "";
+  if (Array.isArray(value)) return value.length === 0;
+  return false;
+}
+
+function normalizePage(value) {
+  if (typeof value !== "string") return "";
+  return value.trim().replace(/\\/g, "/").replace(/^\.\//, "").replace(/^\/+/, "");
+}
+
+function pageIdentity(value) {
+  return normalizePage(value).replace(/\.md$/, "");
+}
+
+function pagesMatch(taskPage, graphPage) {
+  const task = pageIdentity(taskPage);
+  const graph = pageIdentity(graphPage);
+  if (!task || !graph) return false;
+  if (task === graph) return true;
+  if (!graph.includes("/")) {
+    const taskStem = task.split("/").pop();
+    return taskStem === graph;
+  }
+  return false;
+}
+
+function pageCandidates(item) {
+  if (!item || typeof item !== "object" || Array.isArray(item)) return [];
+  const found = [];
+  const visit = (record) => {
+    if (!record || typeof record !== "object" || Array.isArray(record)) return;
+    for (const key of GRAPH_PAGE_KEYS) {
+      const page = normalizePage(record[key]);
+      if (page) found.push(page);
+    }
+  };
+  visit(item);
+  visit(item.node);
+  visit(item.record);
+  return found;
+}
+
+function graphItemsFromDocument(doc) {
+  if (Array.isArray(doc)) return doc;
+  if (!doc || typeof doc !== "object") {
+    throw new Error("graph/next_work.json must be a list or an object that contains one");
+  }
+  for (const key of GRAPH_LIST_KEYS) {
+    if (Array.isArray(doc[key])) return doc[key];
+  }
+  throw new Error("graph/next_work.json has no work list");
+}
+
+function loadGraphItems(file) {
+  let text;
+  try {
+    text = fs.readFileSync(file, "utf8");
+  } catch (error) {
+    throw new Error(`could not read graph work list ${file}: ${error.message}`);
+  }
+  let doc;
+  try {
+    doc = JSON.parse(text.replace(/^\uFEFF/, ""));
+  } catch {
+    throw new Error(`JSON parse error in ${file}`);
+  }
+  return graphItemsFromDocument(doc);
+}
+
+function resolveGraphPath() {
+  const fromEnv = (process.env.GRAPH_NEXT_WORK || "").trim();
+  if (fromEnv) {
+    const file = path.resolve(fromEnv);
+    if (!fs.existsSync(file)) {
+      throw new Error(`missing graph work list: ${file}`);
+    }
+    return file;
+  }
+  const candidates = [
+    path.join(process.cwd(), "hmi-evidence-deposits", "graph", "next_work.json"),
+    path.join(__dirname, "..", "hmi-evidence-deposits", "graph", "next_work.json"),
+  ];
+  for (const file of candidates) {
+    if (fs.existsSync(file)) return file;
+  }
+  return null;
+}
+
+function selectNextTask(tasks, claimed, graphItems) {
+  const claimedSet = claimed instanceof Set ? claimed : new Set(claimed || []);
+  const pending = (Array.isArray(tasks) ? tasks : []).filter(
+    (item) => item && item.status === "pending" && !claimedSet.has(item.id),
+  );
+  const items = Array.isArray(graphItems) ? graphItems : [];
+  for (const item of items) {
+    if (!item || typeof item !== "object" || Array.isArray(item)) continue;
+    if (item.builder !== GRAPH_BUILDER) continue;
+    if (!blockedByIsEmpty(item.blocked_by)) continue;
+    for (const page of pageCandidates(item)) {
+      const match = pending.find((task) => pagesMatch(task.page, page));
+      if (match) return { task: match, source: "graph" };
+    }
+  }
+  const fallback = pending[0] || null;
+  return { task: fallback, source: fallback ? "queue" : "none" };
+}
+
 function claimedIds() {
   const token = process.env.GH_TOKEN || process.env.GITHUB_TOKEN;
   if (!token) {
@@ -175,7 +292,28 @@ function command() {
       fail(`${requested} is already claimed by an open pull request titled builder: ${requested}`);
     }
   } else {
-    task = doc.tasks.find((item) => item.status === "pending" && !claimed.has(item.id));
+    let graphFile = null;
+    let graphItems = [];
+    try {
+      graphFile = resolveGraphPath();
+      if (graphFile) graphItems = loadGraphItems(graphFile);
+    } catch (error) {
+      fail(error.message);
+    }
+    if (!graphFile) {
+      console.error("claude-builder-queue: graph/next_work.json not present; using queue order");
+    }
+    const chosen = selectNextTask(doc.tasks, claimed, graphItems);
+    task = chosen.task;
+    if (task && chosen.source === "graph") {
+      console.error(
+        `claude-builder-queue: preferred ${task.id} because its page is ready in graph/next_work.json`,
+      );
+    } else if (task && graphFile) {
+      console.error(
+        "claude-builder-queue: no ready graph item for wikibiome-claude-builder; using queue order",
+      );
+    }
   }
 
   if (!task) {
@@ -186,4 +324,15 @@ function command() {
   writeOutput({ has_task: "true", task_id: task.id, page: task.page });
 }
 
-command();
+if (require.main === module) {
+  command();
+}
+
+module.exports = {
+  GRAPH_BUILDER,
+  blockedByIsEmpty,
+  graphItemsFromDocument,
+  loadGraphItems,
+  pagesMatch,
+  selectNextTask,
+};
