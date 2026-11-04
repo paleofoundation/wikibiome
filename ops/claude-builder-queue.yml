@@ -1,0 +1,420 @@
+# One pending task per scheduled Claude builder run.
+# status: pending | done | blocked
+# An open pull request titled "builder: <id>" claims that task until it merges or closes.
+version: 1
+tasks:
+  - id: fix-breast-cancer-source-count
+    status: pending
+    page: wiki/entities/breast-cancer.md
+    gap: >
+      wiki/entities/breast-cancer.md is a public disease page whose sources
+      array contained 19 entries on 2026-11-04 while source_count was 18.
+      Lint 2026-05-03 already flagged this mismatch (then 19 vs 18). Recount
+      the array in the file. Do not trust this note if the file has changed.
+    instructions: |
+      Recount the sources array in wiki/entities/breast-cancer.md and set
+      source_count to that length. On 2026-11-04 the array had 19 entries and
+      source_count was 18. Do not add, remove, or rename sources. Do not
+      rewrite the article body. Set updated to the run date only if you change
+      source_count. Leave platform as wikibiome.
+
+  - id: concept-inos
+    status: pending
+    page: wiki/concepts/inducible-nitric-oxide-synthase.md
+    gap: >
+      On 2026-11-04 a case-insensitive search found iNOS or "inducible nitric
+      oxide synthase" in 221 wiki markdown files, and no entity or concept
+      slug for inducible nitric oxide synthase. wiki/concepts/nitric-oxide.md
+      mentions iNOS in prose and is not a dedicated page. Lint 2026-05-03
+      listed iNOS at 211 files with no page. This is a Rule 15 critical gap
+      (50 or more files).
+    instructions: |
+      Create wiki/concepts/inducible-nitric-oxide-synthase.md. Search the vault
+      for source pages that actually discuss iNOS and cite those pages inline.
+      Do not copy sentences from wiki/concepts/nitric-oxide.md. Add a short
+      cross-link from nitric-oxide.md to the new page, and link back.
+      Use concept frontmatter: type concept, sources, source_count equal to
+      the sources array length, karen_brain_primitives, seo_target, platform
+      wikibiome, created and updated set to the run date. Shape can follow
+      wiki/concepts/il-17.md, but every claim must come from a source page
+      you opened. If you cannot name 3 real source pages, create the page
+      with stub true and a stub_reason that says why. No clinical
+      recommendations. Do not invent DOIs or numbers.
+
+  - id: concept-nlrp3
+    status: pending
+    page: wiki/concepts/nlrp3-inflammasome.md
+    gap: >
+      On 2026-11-04 NLRP3 appeared in 77 wiki markdown files and matched no
+      entity or concept slug. Lint 2026-05-03 listed NLRP3 at 76 files with
+      no page. This is a Rule 15 critical gap (50 or more files).
+    instructions: |
+      Create wiki/concepts/nlrp3-inflammasome.md from source pages that
+      discuss the NLRP3 inflammasome. Cite those sources inline. Concept
+      frontmatter needs type, sources, source_count matching the array,
+      karen_brain_primitives, seo_target, and platform wikibiome. If fewer
+      than 3 source pages support the page, set stub true and stub_reason.
+      No clinical recommendations. Do not invent DOIs or numbers. Link the
+      new page from one existing concept that already discusses NLRP3 only
+      if that page's claim is already sourced.
+
+  - id: concept-claudin
+    status: pending
+    page: wiki/concepts/claudin.md
+    gap: >
+      On 2026-11-04 claudin appeared in 84 wiki markdown files and had no
+      concept or entity page. wiki/concepts/tight-junctions.md exists and
+      does not replace a claudin page. Lint mention-density on 2026-04-22
+      already listed claudin at 84 files. This is a Rule 15 critical gap.
+    instructions: |
+      Create wiki/concepts/claudin.md for the claudin tight-junction proteins.
+      Use only claims you can attach to existing source pages. Cross-link
+      wiki/concepts/tight-junctions.md in both directions. Concept frontmatter
+      needs sources, a matching source_count, karen_brain_primitives,
+      seo_target, and platform wikibiome. If fewer than 3 source pages
+      support it, set stub true and stub_reason. Do not turn this into diet
+      or treatment advice. Do not invent measurements.
+
+  - id: concept-occludin
+    status: pending
+    page: wiki/concepts/occludin.md
+    gap: >
+      On 2026-11-04 occludin appeared in 71 wiki markdown files and had no
+      concept or entity page. tight-junctions.md does not cover it as its
+      own page. The 2026-04-22 mention-density report listed occludin at 70
+      files. This is a Rule 15 critical gap.
+    instructions: |
+      Create wiki/concepts/occludin.md from source pages that discuss
+      occludin. Cross-link wiki/concepts/tight-junctions.md and, if
+      wiki/concepts/claudin.md already exists, link that too. Concept
+      frontmatter needs sources, a matching source_count,
+      karen_brain_primitives, seo_target, and platform wikibiome. If fewer
+      than 3 source pages support it, set stub true and stub_reason. No
+      clinical recommendations. Do not invent DOIs or numbers.
+
+  - id: concept-il-22
+    status: pending
+    page: wiki/concepts/il-22.md
+    gap: >
+      On 2026-11-04 IL-22 or interleukin-22 appeared in 34 wiki markdown
+      files and had no page. Sister pages wiki/concepts/il-17.md and
+      wiki/concepts/il-10.md already exist. Lint 2026-05-03 listed IL-22 at
+      33 files with no page. This is below the Rule 15 critical threshold of
+      50 and is still a repeated missing concept.
+    instructions: |
+      Create wiki/concepts/il-22.md using wiki/concepts/il-17.md as the
+      structural model, not as a text source. Cite source pages you opened.
+      Concept frontmatter needs sources, a matching source_count,
+      karen_brain_primitives, seo_target, and platform wikibiome. If fewer
+      than 3 source pages support it, set stub true and stub_reason. Keep
+      the page factual. Do not recommend a therapy.
+
+  - id: stub-tungsten
+    status: pending
+    page: wiki/entities/tungsten.md
+    gap: >
+      No tungsten entity exists. On 2026-11-04 three source pages list
+      tungsten in metals_discussed: fan-2024-heavy-metal-arthritis-machine-learning,
+      yan-2025-infant-serum-metals-gut-microbiota, and
+      davis-2020-salivary-metals-oral-microbiome-dental-decay. A metal entity
+      needs 5 sources to publish, so this page must stay a stub. Lint
+      2026-05-03 named tungsten as a real metal gap.
+    instructions: |
+      Create wiki/entities/tungsten.md with subtype metal, platform wikibiome,
+      stub true, and a stub_reason that names the 3-source deficit against
+      the metal minimum of 5. sources must be only the three pages named in
+      the gap, after you read them and confirm tungsten is actually discussed.
+      If one of those pages does not discuss tungsten, drop it and say so in
+      stub_reason. Set source_count to the array length. Add seo_target and
+      wikipedia_differentiation grounded in those sources. Body stays short
+      and cited. Do not add sources from memory. Do not invent numbers.
+
+  - id: stub-beryllium
+    status: pending
+    page: wiki/entities/beryllium.md
+    gap: >
+      No beryllium entity exists. On 2026-11-04 three source pages list
+      beryllium in metals_discussed: du-2025-heavy-metal-exposures-infants-reflux-dysphagia,
+      street-2024-environmental-factors-thyroid-function, and
+      davis-2020-salivary-metals-oral-microbiome-dental-decay. Below the
+      metal minimum of 5 sources, so the page must be a stub. Lint 2026-05-03
+      named beryllium as a real metal gap.
+    instructions: |
+      Create wiki/entities/beryllium.md with subtype metal, platform
+      wikibiome, stub true, and a stub_reason that names the deficit against
+      the metal minimum of 5. sources must be only the three pages named in
+      the gap, after you confirm each one discusses beryllium. Drop any that
+      do not, and record that in stub_reason. Set source_count to the array
+      length. Add seo_target and wikipedia_differentiation grounded in those
+      sources. Keep the body short and cited. Do not invent measurements.
+
+  - id: expand-barium
+    status: pending
+    page: wiki/entities/barium.md
+    gap: >
+      Public metal page wiki/entities/barium.md is still the 2026-04-19
+      auto-stub: about 130 characters of body, six listed sources,
+      source_count 6, and no seo_target or wikipedia_differentiation. It is
+      not marked stub true. Lint 2026-05-03 included it in the missing SEO
+      set. Rechecked 2026-11-04.
+    instructions: |
+      Rewrite the body of wiki/entities/barium.md into a public metal entity
+      using only these source pages, which you must open:
+      yan-2025-infant-serum-metals-gut-microbiota,
+      meli-2024-baby-food-chemical-characterization-italy,
+      kurhaluk-2025-oxidative-stress-gut-microbiota-male-fertility,
+      yan-2025-infant-serum-metals-gut-microbiota-china,
+      rokoff-2023-metal-mixtures-maternal-depression,
+      lopez-botella-2023-peritoneal-fluid-metals-endometriosis.
+      Follow the metal sections in CLAUDE.md. Add seo_target and
+      wikipedia_differentiation. Set source_count to the sources array
+      length. Drop a listed source only if the source page never mentions
+      barium, and explain that in the body. Cite every material claim inline.
+      If the supported source count would fall under 5, set stub true and
+      stub_reason. No clinical recommendations. Do not invent concentrations
+      that are not in those source pages.
+
+  - id: expand-strontium
+    status: pending
+    page: wiki/entities/strontium.md
+    gap: >
+      wiki/entities/strontium.md is an auto-stub body of about 130 characters
+      with source_count 6 and no seo_target or wikipedia_differentiation.
+      It is not marked stub true. Same missing-SEO set as lint 2026-05-03.
+      Rechecked 2026-11-04.
+    instructions: |
+      Expand wiki/entities/strontium.md from these source pages only:
+      yan-2025-infant-serum-metals-gut-microbiota,
+      meli-2024-baby-food-chemical-characterization-italy,
+      godoy-gallardo-2021-antibacterial-metal-ions-nanoparticles-tissue-engineering,
+      amerikanou-2022-ibd-biomarkers-trace-metals,
+      nguyen-2024-antibacterial-bioceramics-design-mechanisms,
+      bisht-2024-malonate-lung-pseudomonas-metal-stress.
+      Use the metal entity sections in CLAUDE.md. Add seo_target and
+      wikipedia_differentiation. Keep source_count equal to the sources
+      array. Omit any section the sources do not support. Cite claims inline.
+      If fewer than 5 sources actually discuss strontium, set stub true and
+      stub_reason. No treatment advice. Do not invent numbers.
+
+  - id: expand-uranium
+    status: pending
+    page: wiki/entities/uranium.md
+    gap: >
+      wiki/entities/uranium.md is an auto-stub body with source_count 5 and
+      no seo_target or wikipedia_differentiation. It is unmarked as a stub
+      even though the body does not meet a publishable metal page. Lint
+      2026-05-03. Rechecked 2026-11-04.
+    instructions: |
+      Expand wiki/entities/uranium.md from these source pages only:
+      yan-2025-infant-serum-metals-gut-microbiota,
+      meli-2024-baby-food-chemical-characterization-italy,
+      yan-2025-infant-serum-metals-gut-microbiota-china,
+      lancaster-2014-metallomics-microorganisms-bioremediation,
+      de-almeida-2022-toxic-metals-infant-formula-brazil.
+      Metal entity sections, seo_target, wikipedia_differentiation, and a
+      source_count that matches the array. Cite inline. If a listed source
+      does not mention uranium, remove it and, if the count drops below 5,
+      set stub true with stub_reason. No clinical recommendations.
+
+  - id: expand-vanadium
+    status: pending
+    page: wiki/entities/vanadium.md
+    gap: >
+      wiki/entities/vanadium.md is an auto-stub body with source_count 8 and
+      no seo_target or wikipedia_differentiation. Lint 2026-05-03 missing-SEO
+      set. Rechecked 2026-11-04.
+    instructions: |
+      Expand wiki/entities/vanadium.md from these source pages only:
+      jaishankar-2014-heavy-metal-toxicity-mechanisms,
+      tatarchuk-2016-micro-macroelements-pcos,
+      liu-2025-cardiometabolic-nickel,
+      briffa-2020-heavy-metal-pollution-environment-toxicology,
+      cameron-2011-nickel-genotoxicity-carcinogenicity,
+      hickman-lewis-2020-metallomics-deep-time-ocean-chemistry,
+      zhou-2025-heavy-metals-essential-minerals-hair-asd-severity,
+      maurya-2020-arg-soil-microbiomes-co-selection.
+      Several of these titles are not vanadium papers. Keep a source only
+      when the page itself discusses vanadium. Metal entity sections,
+      seo_target, wikipedia_differentiation, matching source_count. If fewer
+      than 5 sources discuss vanadium, set stub true and stub_reason. Cite
+      inline. No clinical recommendations. Do not invent toxicology values.
+
+  - id: expand-titanium
+    status: pending
+    page: wiki/entities/titanium.md
+    gap: >
+      wiki/entities/titanium.md is an auto-stub body with source_count 5 and
+      no seo_target or wikipedia_differentiation. Lint 2026-05-03. Rechecked
+      2026-11-04. The listed sources look loosely related, so the expansion
+      has to drop any source that never mentions titanium.
+    instructions: |
+      Expand wiki/entities/titanium.md only from claims in:
+      pavlic-2021-nickel-bacterial-adhesion-biofilm-orthodontic,
+      marchesi-2011-towards-human-crc-microbiome,
+      bartnicka-2020-candida-shields-pgingivalis-immune-evasion,
+      gunal-2018-heavy-metals-sialic-acid-ms,
+      abdelmaksoud-2017-statins-vaginal-microbiome-gardnerella-vaginolysin.
+      Remove listed sources that do not mention titanium. If fewer than 5
+      remain, set stub true and stub_reason instead of padding the page.
+      Otherwise write the metal entity sections with seo_target,
+      wikipedia_differentiation, and a matching source_count. Cite inline.
+      No clinical recommendations.
+
+  - id: expand-fusarium
+    status: pending
+    page: wiki/entities/fusarium.md
+    gap: >
+      wiki/entities/fusarium.md is a fungus auto-stub of about 130 characters
+      with source_count 7 and no seo_target or wikipedia_differentiation.
+      Fungus pages need 3 sources. Lint 2026-05-03 missing-SEO set. Rechecked
+      2026-11-04.
+    instructions: |
+      Expand wiki/entities/fusarium.md as a public fungus entity from:
+      shi-2023-ppi-fungal-dysbiosis-gerd,
+      otaegui-chivite-2025-mycobiota-ms-progression,
+      ding-2025-mycobiome-human-cancer-mechanisms-therapeutics,
+      yin-2022-pcos-bacteriome-mycobiome-metabolome-bmi,
+      mok-2024-fungal-gut-pediatric-ms,
+      wei-2025-gut-mycobiome-cardiometabolic-disease,
+      wei-2025-gut-mycobiome-cardiometabolic-progression.
+      Use the microbe entity sections in CLAUDE.md where they fit a fungus,
+      including metal interactions when the sources support them. Add
+      seo_target and wikipedia_differentiation. Match source_count to the
+      array. Drop sources that do not mention Fusarium. Cite inline. No
+      clinical recommendations.
+
+  - id: expand-listeria
+    status: pending
+    page: wiki/entities/listeria.md
+    gap: >
+      wiki/entities/listeria.md is a microbe auto-stub with source_count 8
+      and no seo_target or wikipedia_differentiation. Microbe pages need 3
+      sources. Lint 2026-05-03. Rechecked 2026-11-04.
+    instructions: |
+      Expand wiki/entities/listeria.md from:
+      soria-castro-2022-valproic-acid-mast-cells-listeria,
+      pung-1984-sex-hormones-listeria-susceptibility-mice,
+      wang-2021-gut-microbiota-nsaid-enteropathy,
+      zheng-2024-pcos-obesity-vaginal-microbiome-phages,
+      wales-2015-co-selection-resistance-foodborne-pathogens,
+      hicks-2025-oral-vaginal-stool-microbial-signatures-endometriosis,
+      thompson-2017-breast-cancer-microbiota-host-gene-expression,
+      ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions.
+      Keep a source only if it discusses Listeria. Microbe entity sections,
+      seo_target, wikipedia_differentiation, matching source_count. If a
+      species page already exists, link it instead of duplicating it. Cite
+      inline. No clinical recommendations.
+
+  - id: expand-proteus
+    status: pending
+    page: wiki/entities/proteus.md
+    gap: >
+      wiki/entities/proteus.md is a microbe auto-stub with source_count 8
+      and no seo_target or wikipedia_differentiation. Lint 2026-05-03.
+      Rechecked 2026-11-04.
+    instructions: |
+      Expand wiki/entities/proteus.md from:
+      srivastava-2016-environmental-resistance-microbes-review,
+      quaranta-2019-fmt-female-reproductive-tract-diseases,
+      stevens-2023-phage-endolysin-cpps-chronic-prostatitis,
+      bautista-2025-reprogramming-prostate-cancer-microbiome,
+      lv-2024-gut-microbiota-male-reproductive-function-review,
+      khorsand-2022-enterobacteriaceae-ecoli-ibd-ibdmdb-metagenomics,
+      maier-2019-nickel-microbial-pathogenesis,
+      neto-2024-environmental-factors-seminal-microbiome-sperm-quality.
+      Keep sources that discuss Proteus. Microbe entity sections, seo_target,
+      wikipedia_differentiation, matching source_count. Link a species page
+      if one exists. Cite inline. No clinical recommendations. Do not invent
+      enzyme cofactors.
+
+  - id: expand-pseudomonas
+    status: pending
+    page: wiki/entities/pseudomonas.md
+    gap: >
+      wiki/entities/pseudomonas.md is a genus auto-stub with source_count 8
+      and no seo_target or wikipedia_differentiation.
+      wiki/entities/pseudomonas-aeruginosa.md already exists, so the genus
+      page must not paste that species page. Lint 2026-05-03. Rechecked
+      2026-11-04.
+    instructions: |
+      Expand wiki/entities/pseudomonas.md as the genus page. Read:
+      patil-2021-infection-metallomics-covid-era,
+      dinakaran-2014-circdna-circulating-microbiome-cvd,
+      xu-2026-gut-prostate-axis-bph-systematic-review,
+      loganathan-2025-gut-microbiota-gut-brain-axis-breast-cancer-chemotherapy,
+      golden-2024-metal-chelation-antibacterial-pseudomonas-acinetobacter,
+      vocca-2025-probiotics-chronic-bacterial-prostatitis-rct,
+      srivastava-2016-environmental-resistance-microbes-review,
+      yan-2025-infant-serum-metals-gut-microbiota.
+      Keep sources that discuss Pseudomonas. Link
+      [[pseudomonas-aeruginosa]] instead of copying it. Microbe sections,
+      seo_target, wikipedia_differentiation, matching source_count. Cite
+      inline. No clinical recommendations. Factual mechanism statements about
+      metal chelation are allowed. Dosing or "use this drug" language is not.
+
+  - id: expand-subdoligranulum
+    status: pending
+    page: wiki/entities/subdoligranulum.md
+    gap: >
+      wiki/entities/subdoligranulum.md is a microbe auto-stub with
+      source_count 8 and no seo_target or wikipedia_differentiation. Lint
+      2026-05-03. Rechecked 2026-11-04.
+    instructions: |
+      Expand wiki/entities/subdoligranulum.md from:
+      li-2023-combined-gut-bacteria-fungi-crc-adenoma-chinese-cohort,
+      geng-2021-gut-microbiota-diversity-erectile-dysfunction,
+      liu-2024-causal-gut-microbiota-metabolites-hypothyroidism-mendelian,
+      de-groot-2017-distinct-fecal-oral-microbiota-t1d-observational,
+      chang-2024-metabolome-amino-acids-asd,
+      shan-2021-gut-microbiota-hormone-inflammatory-endometriosis,
+      lin-2023-gut-microbiota-perimenopausal-panic-disorder,
+      zhou-2024-gut-microbiome-schizophrenia-mendelian-randomization.
+      Keep sources that name Subdoligranulum. Microbe sections, seo_target,
+      wikipedia_differentiation, matching source_count. Cite inline. No
+      clinical recommendations. Do not upgrade an association into a cause
+      unless the source page's evidence level says so, and name that level.
+
+  - id: expand-treponema
+    status: pending
+    page: wiki/entities/treponema.md
+    gap: >
+      wiki/entities/treponema.md is a microbe auto-stub with source_count 8
+      and no seo_target or wikipedia_differentiation. Lint 2026-05-03.
+      Rechecked 2026-11-04.
+    instructions: |
+      Expand wiki/entities/treponema.md from:
+      ibrahim-2023-oral-dysbiosis-parkinsons-systematic-review,
+      purcell-2017-gut-microbiome-consensus-molecular-subtypes-crc,
+      brookes-2023-mouthwash-oral-microbiome-review,
+      tao-2024-cadmium-gut-microbiota-dwarf-hamsters,
+      gualtero-2023-oral-microbiome-inflammation-vascular-diseases-review,
+      dong-2021-salivary-microbiome-tsh-shifts,
+      ser-2023-current-updates-microbiome-endometriosis-review,
+      huang-2022-oral-gut-microbiota-cpe-correlations.
+      Keep sources that discuss Treponema. Microbe sections, seo_target,
+      wikipedia_differentiation, matching source_count. Cite inline. Oral
+      microbiome associations stay descriptive. No clinical recommendations.
+
+  - id: expand-vibrio
+    status: pending
+    page: wiki/entities/vibrio.md
+    gap: >
+      wiki/entities/vibrio.md is a microbe auto-stub with source_count 8 and
+      no seo_target or wikipedia_differentiation. Lint 2026-05-03. Rechecked
+      2026-11-04. The listed sources may be loose name matches, so unsupported
+      ones have to be removed rather than stretched.
+    instructions: |
+      Expand wiki/entities/vibrio.md only where these source pages discuss
+      Vibrio:
+      liu-2025-immune-gut-microbiota-crc-mr-mediation,
+      srivastava-2016-environmental-resistance-microbes-review,
+      peralta-marzal-2024-robust-microbiome-signature-asd-machine-learning,
+      troeseid-2024-gut-microbiome-cardiometabolic-comorbidities-hiv,
+      pei-2024-immune-cells-gut-microbiota-hashimotos-mendelian,
+      yan-2022-gut-microbiome-schizophrenia-zhejiang-china-16s,
+      ryan-2017-microbiome-metabolome-cvd-interventions-apoe-mice,
+      appunni-2021-dietary-factors-gut-microbiome-crc.
+      Remove sources that do not mention Vibrio. If fewer than 3 remain, set
+      stub true and stub_reason. Otherwise write the microbe sections with
+      seo_target, wikipedia_differentiation, and a matching source_count.
+      Cite inline. No clinical recommendations.

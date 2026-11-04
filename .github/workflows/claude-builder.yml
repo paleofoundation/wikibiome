@@ -1,0 +1,184 @@
+# Scheduled WikiBiome page builder.
+#
+# Modeled on the requested Heavy Metal Index contract
+# (paleofoundation/heavymetalindex .github/workflows/claude-evidence-fill.yml):
+# a queue file, a recurring schedule, workflow_dispatch, anthropics/claude-code-action
+# authenticated with CLAUDE_CODE_OAUTH_TOKEN, and a build gate.
+# That repository returned HTTP 404 to the token that prepared this file, so this
+# workflow follows that contract and the claude-code-action v1 automation mode
+# rather than a line copy.
+#
+# One pending queue task runs per schedule tick. Open pull requests titled
+# "builder: <task-id>" count as claims, so a later tick does not start the same task.
+# This workflow does not deploy.
+
+name: Claude builder
+
+on:
+  schedule:
+    # Every 2 hours, on the hour, UTC.
+    - cron: "0 */2 * * *"
+  workflow_dispatch:
+    inputs:
+      task_id:
+        description: "Queue task id to run. Leave empty for the first unclaimed pending task."
+        required: false
+        type: string
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  contents: write
+  pull-requests: write
+  id-token: write
+
+# Schedule and manual runs share one lock so two ticks cannot claim the same
+# task. Pull request checks stay on their own ref and do not wait on a builder.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event_name == 'pull_request' && github.ref || 'builder' }}
+  cancel-in-progress: false
+
+jobs:
+  queue:
+    name: Queue check
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    outputs:
+      has_task: ${{ steps.next.outputs.has_task }}
+      task_id: ${{ steps.next.outputs.task_id }}
+      page: ${{ steps.next.outputs.page }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Validate queue
+        run: node scripts/claude-builder-queue.cjs validate
+
+      - name: Select next task
+        id: next
+        if: github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TASK_ID: ${{ inputs.task_id }}
+        run: node scripts/claude-builder-queue.cjs next
+
+  builder:
+    name: Claude page builder
+    needs: queue
+    if: >-
+      github.event_name != 'pull_request' &&
+      needs.queue.outputs.has_task == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    outputs:
+      branch_name: ${{ steps.claude.outputs.branch_name }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Require Claude OAuth token
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+        run: |
+          if [ -z "${CLAUDE_CODE_OAUTH_TOKEN}" ]; then
+            echo "Repository secret CLAUDE_CODE_OAUTH_TOKEN is not available to this workflow."
+            echo "Add it under Settings, Secrets and variables, Actions. The value is not printed."
+            exit 1
+          fi
+          echo "CLAUDE_CODE_OAUTH_TOKEN is available. Value not printed."
+
+      - name: Run Claude Code
+        id: claude
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          base_branch: main
+          branch_prefix: claude/builder-
+          prompt: |
+            You are the WikiBiome scheduled page builder. Complete exactly one queue task, then stop.
+
+            Task id: ${{ needs.queue.outputs.task_id }}
+            Page: ${{ needs.queue.outputs.page }}
+
+            Read that task in ops/claude-builder-queue.yml and follow its instructions.
+            Also follow CLAUDE.md and AGENTS.md.
+
+            Rules:
+            - Public pages stay factual. No clinical recommendations. Do not write "should take", "avoid", "stop", or "use X for Y condition".
+            - Do not invent DOIs, authors, journals, years, sample sizes, or measurements. Read the source page. If metadata is missing, set doi to "not yet verified" and add an HTML comment that says NEEDS VERIFICATION.
+            - Do not delete pages. Do not edit CLAUDE.md, AGENTS.md, or anything under raw/karens-brain/.
+            - Do not deploy. Do not run vercel, deploy.sh, scripts/deploy-with-retry.sh, or any Sites publish. Do not change DNS, CDN, or domains.
+            - Do not print secrets or environment variables.
+            - Use American English. Do not use em dashes.
+            - Every material claim on a public page needs an inline [[source-slug]] to a source page you opened.
+            - Before you commit, run node scripts/build-content.cjs. If the output contains "YAML parse error", fix it and run the build again. Do not commit a failing build.
+            - In the same commit, set this task status to done. If the vault cannot support the task without new outside sources, set status to blocked and add a note of at least 10 characters. Do not mark a blocked task done.
+            - Commit only the task pages, ops/claude-builder-queue.yml, one new summary line in wiki/log.md, and src/content.generated.json if the content build changed it. Do not commit node_modules or dist directories.
+            - The pull request title must be exactly: builder: ${{ needs.queue.outputs.task_id }}
+            - Do not start the next queue task.
+          claude_args: |
+            --max-turns 40
+            --allowedTools Read,Edit,Write,Glob,Grep,Bash
+
+  build-gate:
+    name: Build gate
+    needs: [queue, builder]
+    if: |
+      always() && needs.queue.result == 'success' && (
+        (github.event_name == 'pull_request' && startsWith(github.head_ref, 'claude/')) ||
+        (needs.builder.result == 'success' && needs.builder.outputs.branch_name != '')
+      )
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout pull request
+        if: github.event_name == 'pull_request'
+        uses: actions/checkout@v4
+
+      - name: Checkout builder branch
+        if: github.event_name != 'pull_request'
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.builder.outputs.branch_name }}
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Content build
+        run: |
+          set -eu
+          node scripts/build-content.cjs > /tmp/build-content.out 2> /tmp/build-content.err
+          cat /tmp/build-content.out
+          cat /tmp/build-content.err >&2
+          if grep -q "YAML parse error" /tmp/build-content.out /tmp/build-content.err; then
+            echo "Build gate failed: YAML parse error. build-content.cjs still warns instead of exiting non-zero."
+            exit 1
+          fi
+
+      - name: SEO invariants
+        run: node scripts/seo-invariants.cjs
