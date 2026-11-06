@@ -8,6 +8,21 @@
 # The default GITHUB_TOKEN cannot read that private repository, and
 # actions/checkout then returns HTTP Not Found.
 #
+# scripts/claude-builder-deposits-preflight.cjs runs before that checkout on
+# schedule and workflow_dispatch. It does not print the token.
+# A blank DEPOSITS_READ_TOKEN (the log shows the name and no ***) means GitHub
+# injected no repository secret: the secret is missing, empty, stored on the
+# Preview or Production environment, or it is an organization secret whose
+# repository list omits wikibiome. This job does not set environment:, so
+# environment secrets stay hidden.
+# A present token must GET graph/next_work.json on the default branch.
+# Fine-grained PAT: resource owner paleofoundation, repository access limited
+# to hmi-evidence-deposits, Contents: Read, organization approval when
+# requested, and SAML SSO authorization when the org enforces SSO.
+# Classic PAT: repo scope, plus the same SSO authorization.
+# Where to store it: paleofoundation/wikibiome Settings, Secrets and variables,
+# Actions, Repository secrets, name DEPOSITS_READ_TOKEN.
+#
 # One pending queue task runs per schedule tick. Open pull requests titled
 # "builder: <task-id>" count as claims, so a later tick does not start the same task.
 # When task_id is empty, next prefers a ready page from the evidence graph
@@ -67,21 +82,20 @@ jobs:
       - name: Validate queue
         run: |
           node scripts/claude-builder-queue.cjs validate
-          node --test scripts/claude-builder-queue.test.cjs
+          node --test scripts/claude-builder-queue.test.cjs scripts/claude-builder-deposits-preflight.test.cjs
 
       # The deposits repo is private. Do not fall back to GITHUB_TOKEN: it cannot
       # see paleofoundation/hmi-evidence-deposits. Credentials are not persisted,
       # so this job cannot push there. Only the work list is fetched.
+      # The preflight distinguishes a secret GitHub did not inject from a token
+      # that cannot read graph/next_work.json, and it names the required
+      # Contents: Read or repo scope. See the header comment for the operator
+      # steps. The token value is not printed.
       - name: Preflight deposits read token
         if: github.event_name != 'pull_request'
         env:
           DEPOSITS_READ_TOKEN: ${{ secrets.DEPOSITS_READ_TOKEN }}
-        run: |
-          if [ -z "${DEPOSITS_READ_TOKEN}" ]; then
-            echo "::warning title=DEPOSITS_READ_TOKEN unset::Repository secret DEPOSITS_READ_TOKEN is not available to this workflow. The default GITHUB_TOKEN cannot read private paleofoundation/hmi-evidence-deposits, so actions/checkout returns HTTP Not Found. Add DEPOSITS_READ_TOKEN under Settings, Secrets and variables, Actions. The value is not printed."
-            exit 1
-          fi
-          echo "DEPOSITS_READ_TOKEN is available. Value not printed."
+        run: node scripts/claude-builder-deposits-preflight.cjs
 
       - name: Clone evidence graph
         if: github.event_name != 'pull_request'
