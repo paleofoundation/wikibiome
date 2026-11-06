@@ -1,12 +1,12 @@
 # Scheduled WikiBiome page builder.
 #
-# Modeled on the requested Heavy Metal Index contract
-# (paleofoundation/heavymetalindex .github/workflows/claude-evidence-fill.yml):
-# a queue file, a recurring schedule, workflow_dispatch, anthropics/claude-code-action
-# authenticated with CLAUDE_CODE_OAUTH_TOKEN, and a build gate.
-# That repository returned HTTP 404 to the token that prepared this file, so this
-# workflow follows that contract and the claude-code-action v1 automation mode
-# rather than a line copy.
+# Modeled on paleofoundation/heavymetalindex
+# .github/workflows/claude-evidence-fill.yml: a queue file, a recurring schedule,
+# workflow_dispatch, anthropics/claude-code-action authenticated with
+# CLAUDE_CODE_OAUTH_TOKEN, a build gate, and a sparse checkout of
+# paleofoundation/hmi-evidence-deposits graph files with secrets.DEPOSITS_READ_TOKEN.
+# The default GITHUB_TOKEN cannot read that private repository, and
+# actions/checkout then returns HTTP Not Found.
 #
 # One pending queue task runs per schedule tick. Open pull requests titled
 # "builder: <task-id>" count as claims, so a later tick does not start the same task.
@@ -69,14 +69,26 @@ jobs:
           node scripts/claude-builder-queue.cjs validate
           node --test scripts/claude-builder-queue.test.cjs
 
-      # Read-only sparse checkout of the work list only. Credentials are not
-      # persisted, so this job cannot push to the deposits repo. The rest of
-      # that repository is not fetched.
+      # The deposits repo is private. Do not fall back to GITHUB_TOKEN: it cannot
+      # see paleofoundation/hmi-evidence-deposits. Credentials are not persisted,
+      # so this job cannot push there. Only the work list is fetched.
+      - name: Preflight deposits read token
+        if: github.event_name != 'pull_request'
+        env:
+          DEPOSITS_READ_TOKEN: ${{ secrets.DEPOSITS_READ_TOKEN }}
+        run: |
+          if [ -z "${DEPOSITS_READ_TOKEN}" ]; then
+            echo "::warning title=DEPOSITS_READ_TOKEN unset::Repository secret DEPOSITS_READ_TOKEN is not available to this workflow. The default GITHUB_TOKEN cannot read private paleofoundation/hmi-evidence-deposits, so actions/checkout returns HTTP Not Found. Add DEPOSITS_READ_TOKEN under Settings, Secrets and variables, Actions. The value is not printed."
+            exit 1
+          fi
+          echo "DEPOSITS_READ_TOKEN is available. Value not printed."
+
       - name: Clone evidence graph
         if: github.event_name != 'pull_request'
         uses: actions/checkout@v4
         with:
           repository: paleofoundation/hmi-evidence-deposits
+          token: ${{ secrets.DEPOSITS_READ_TOKEN }}
           path: hmi-evidence-deposits
           persist-credentials: false
           fetch-depth: 1
